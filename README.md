@@ -61,7 +61,6 @@ origin: https://github.com/jordanruthe/KlipperScreen.git
 env: ~/.KlipperScreen-env/bin/python
 requirements: scripts/KlipperScreen-requirements.txt
 install_script: scripts/KlipperScreen-install.sh
-managed_services: KlipperScreen
 ```
 
 ## Changelog
