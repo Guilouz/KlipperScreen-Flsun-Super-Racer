@@ -306,11 +306,11 @@ class SystemPanel(ScreenPanel):
             self.labels['update_progress'] = Gtk.Label(_("Updating") + '\n')
         else:
             self.labels['update_progress'] = Gtk.Label(_("Starting update for") + f' {program}...')
-        self.labels['update_progress'].set_halign(Gtk.Align.START)
-        self.labels['update_progress'].set_valign(Gtk.Align.START)
-        self.labels['update_progress'].connect("size-allocate", self._autoscroll)
-        scroll.add(self.labels['update_progress'])
-        self.labels['update_scroll'] = scroll
+            self.labels['update_progress'].set_halign(Gtk.Align.START)
+            self.labels['update_progress'].set_valign(Gtk.Align.START)
+            self.labels['update_progress'].connect("size-allocate", self._autoscroll)
+            scroll.add(self.labels['update_progress'])
+            self.labels['update_scroll'] = scroll
 
         dialog = self._gtk.Dialog(self._screen, buttons, scroll, self.finish_updating)
         dialog.set_response_sensitive(Gtk.ResponseType.CANCEL, False)

@@ -20,23 +20,23 @@ button:active {
 }
 
 button.color1 {
-    border-bottom-color: #ED6500;
+    border-bottom-color: #2196f3;
 }
 
 button.color2 {
-    border-bottom-color: #B10080;
+    border-bottom-color: #2196f3;
 }
 
 button.color3 {
-    border-bottom-color: #009384;
+    border-bottom-color: #2196f3;
 }
 
 button.color4 {
-    border-bottom-color: #A7E100;
+    border-bottom-color: #2196f3;
 }
 
 button.active {
-    background-color: #20303D;
+    background-color: #2196f3;
 }
 
 button.update {
@@ -134,7 +134,7 @@ textview .time {
 }
 
 .distbutton_active {
-    background-color: #20303D;
+    background-color: #2196f3;
 }
 
 .distbutton_top {
@@ -205,8 +205,4 @@ textview .time {
 
 .error {
     background-color: rgba(204, 30, 30, 0.7);
-}
-
-.keyboard_pad {
-    background-color: #13181C;
 }

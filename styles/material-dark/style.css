@@ -17,26 +17,28 @@ button:active {
 }
 
 .button_active {
-    background-color: #282828;
+    background-color: #000000;
+    border-color: #007db4;
+    border-style: dashed;
     border-width: .25em;
     border-radius: 1em;
 }
 
 button.color1 {
     background-color: #090909;
-    border-color: #d46900;
+    border-color: #007db4;
     border-radius: 1em;
 }
 
 button.color2 {
     background-color: #090909;
-    border-color: #ed3c63;
+    border-color: #007db4;
     border-radius: 1em;
 }
 
 button.color3 {
     background-color: #090909;
-    border-color: #849900;
+    border-color: #007db4;
     border-radius: 1em;
 }
 
@@ -80,7 +82,7 @@ switch {
 }
 
 switch:checked {
-    background-color: #849900;
+    background-color: #007db4;
 }
 
 entry {
@@ -113,7 +115,7 @@ trough {
 }
 
 trough highlight, trough progress {
-    background-color: #d81549;
+    background-color: #007db4;
     color: #e2e2e2;
     border-color: #121212;
 }
@@ -150,7 +152,7 @@ textview .time {
 }
 
 .dialog button:nth-child(1) {
-    border-bottom-color: #849900;
+    border-bottom-color: #007db4;
 }
 
 .dialog button:nth-child(2) {
@@ -163,7 +165,7 @@ textview .time {
 }
 
 .distbutton_active {
-    background-color: #d46900;
+    background-color: #007db4;
 }
 
 .fan_slider {
@@ -224,8 +226,4 @@ textview .time {
 
 .error {
     background-color: #B71C1C;
-}
-
-.keyboard_pad {
-    background-color: #090909; /*base02*/
 }
