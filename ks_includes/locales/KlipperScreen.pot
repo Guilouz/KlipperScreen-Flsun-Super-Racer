@@ -63,6 +63,15 @@ msgstr ""
 msgid "Green"
 msgstr ""
 
+msgid "Yellow"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Violet"
+msgstr ""
+
 msgid "Nozzle (All)"
 msgstr ""
 

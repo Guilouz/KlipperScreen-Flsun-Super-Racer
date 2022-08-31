@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 2022-06-02 14:53-0300\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-08-21 14:01+0200\n"
+"PO-Revision-Date: 2022-08-31 23:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: Andrii Komarovskyi\n"
 "Language: uk\n"
@@ -63,6 +63,15 @@ msgid "Red"
 msgstr ""
 
 msgid "Green"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Violet"
 msgstr ""
 
 msgid "Nozzle (All)"
