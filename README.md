@@ -17,6 +17,7 @@ This version of KlipperScreen is compatible with FLSUN Super Racer, it's optimiz
 - Added support for Endstops Phase Calibration
 - Some fixes and adjustments
 
+<br />
 
 If you like my work, don't hesitate to support me by paying me a 🍺 or a ☕. Thank you 🙂
 
