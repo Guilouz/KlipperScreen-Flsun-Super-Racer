@@ -68,4 +68,5 @@ install_script: scripts/KlipperScreen-install.sh
 
 ## Changelog
 
+- 03/09/2022 : Improvements
 - 29/08/2022 : First release
