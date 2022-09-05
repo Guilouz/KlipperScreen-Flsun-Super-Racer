@@ -68,5 +68,6 @@ install_script: scripts/KlipperScreen-install.sh
 
 ## Changelog
 
+- 05/09/2022 : Updated to latest KlipperScreen v0.2.6
 - 03/09/2022 : Improvements
 - 29/08/2022 : First release
