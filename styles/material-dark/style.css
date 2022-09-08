@@ -11,7 +11,7 @@ window {
 }
 
 button {
-    background-color: #121212;
+    background-color: rgba(0,0,0,0);
 }
 
 button:active {
@@ -19,34 +19,34 @@ button:active {
 }
 
 .button_active {
-    background-color: #000000;
-    border-color: #007db4;
+    background-color: rgba(0,0,0,0);
+    border-color: #d81549;
     border-style: dashed;
     border-width: .25em;
     border-radius: 1em;
 }
 
 button.color1 {
-    background-color: #090909;
-    border-color: #007db4;
+    background-color: rgba(0,0,0,0.5);
+    border-color: #2196f3;
     border-radius: 1em;
 }
 
 button.color2 {
-    background-color: #090909;
-    border-color: #007db4;
+    background-color: rgba(0,0,0,0.5);
+    border-color: #2196f3;
     border-radius: 1em;
 }
 
 button.color3 {
-    background-color: #090909;
-    border-color: #007db4;
+    background-color: rgba(0,0,0,0.5);
+    border-color: #2196f3;
     border-radius: 1em;
 }
 
 button.color4 {
-    background-color: #090909;
-    border-color: #007db4;
+    background-color: rgba(0,0,0,0.5);
+    border-color: #2196f3;
     border-radius: 1em;
 }
 
@@ -55,11 +55,11 @@ button.color1:active, button.color2:active, button.color3:active, button.color4:
 }
 
 button.active {
-    background-color: #ee6002;
+    background-color: #2196f3;
 }
 
 button.update {
-    background-color: #090909;
+    background-color: rgba(0,0,0,0.5);
     border: 0;
     border-bottom: .3em solid;
     border-bottom-color: #849900;
@@ -67,7 +67,7 @@ button.update {
 }
 
 button.invalid {
-    background-color: #090909;
+    background-color: rgba(0,0,0,0.5);
     border: 0;
     border-bottom: .3em solid;
     border-bottom-color: #B71C1C;
@@ -81,15 +81,20 @@ combobox box button {
 
 switch {
     background-color: #1f1f1f;
+    border-color: #121212;
 }
 
 switch:checked {
-    background-color: #007db4;
+    background-color: #849900;
+}
+
+switch slider {
+    border: 0;
 }
 
 entry {
     background-color: #1f1f1f;
-    border-color: #1f1f1f;
+    border-color: rgba(0,0,0,0);
 }
 
 frame {
@@ -117,7 +122,7 @@ trough {
 }
 
 trough highlight, trough progress {
-    background-color: #007db4;
+    background-color: #d81549;
     color: #e2e2e2;
     border-color: #121212;
 }
@@ -127,7 +132,7 @@ scale-mark {
 }
 
 scrollbar, scrollbar button, scrollbar trough {
-    background-color: #121212;
+    background-color: rgba(0,0,0,0);
 }
 
 scrollbar slider {
@@ -148,13 +153,13 @@ textview .time {
 }
 
 .dialog button {
-    background-color: #090909;
+    background-color: rgba(0,0,0,0.5);
     border-bottom-color: #1f1f1f;
     border-radius: .75em;
 }
 
 .dialog button:nth-child(1) {
-    border-bottom-color: #007db4;
+    border-bottom-color: #849900;
 }
 
 .dialog button:nth-child(2) {
@@ -163,11 +168,11 @@ textview .time {
 
 .tempbutton_top, .tempbutton, .tempbutton_bottom, .distbutton_top, .distbutton, .distbutton_bottom  {
     border-color: #121212;
-    background-color: #090909;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .distbutton_active {
-    background-color: #007db4;
+    background-color: #2196f3;
 }
 
 .fan_slider {
@@ -192,7 +197,7 @@ textview .time {
 
 .numpad_tleft, .numpad_top, .numpad_tright, .numpad_left, .numpad_button, .numpad_right, .numpad_bleft, .numpad_bottom, .numpad_bright {
     border-color: #121212;
-    background-color: #090909;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .printing-status {
@@ -228,4 +233,8 @@ textview .time {
 
 .error {
     background-color: #B71C1C;
+}
+
+.keyboard_pad {
+    background-color: #090909; /*base02*/
 }
