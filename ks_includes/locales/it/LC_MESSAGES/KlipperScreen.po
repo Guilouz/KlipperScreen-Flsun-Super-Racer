@@ -13,6 +13,54 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 
+msgid "Neopixels"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Violet"
+msgstr ""
+
+msgid "Hotend (All)"
+msgstr ""
+
+msgid "Hotend (One by One)"
+msgstr ""
+
+msgid "Bed (All)"
+msgstr ""
+
+msgid "Bed (One by One)"
+msgstr ""
+
+msgid "Progress (All)"
+msgstr ""
+
+msgid "Progress (One by One)"
+msgstr ""
+
+msgid "Speed (All)"
+msgstr ""
+
+msgid "Speed (One by One)"
+msgstr ""
+
 msgid "Shutdown"
 msgstr ""
 
@@ -47,57 +95,6 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
-msgstr ""
-
-msgid "Light"
-msgstr ""
-
-msgid "LED On"
-msgstr ""
-
-msgid "LED Off"
-msgstr ""
-
-msgid "Blue"
-msgstr ""
-
-msgid "Red"
-msgstr ""
-
-msgid "Green"
-msgstr ""
-
-msgid "Yellow"
-msgstr ""
-
-msgid "Orange"
-msgstr ""
-
-msgid "Violet"
-msgstr ""
-
-msgid "Nozzle (All)"
-msgstr ""
-
-msgid "Nozzle (Progressive)"
-msgstr ""
-
-msgid "Bed (All)"
-msgstr ""
-
-msgid "Bed (Progressive)"
-msgstr ""
-
-msgid "Progress (All)"
-msgstr ""
-
-msgid "Progress (Progressive)"
-msgstr ""
-
-msgid "Speed (All)"
-msgstr ""
-
-msgid "Speed (Progressive)"
 msgstr ""
 
 #, python-format
@@ -336,14 +333,8 @@ msgstr "Messa a Punto"
 msgid "Finish"
 msgstr "Finito"
 
-#, fuzzy
-#| msgid ""
-#| "Firmware\n"
-#| "Restart"
 msgid "Firmware Restart"
-msgstr ""
-"Firmware\n"
-"Riavvio"
+msgstr "Firmware Riavvio"
 
 msgid "Flow:"
 msgstr ""
@@ -354,14 +345,8 @@ msgstr ""
 msgid "Font Size"
 msgstr "Dimensione del testo"
 
-#, fuzzy
-#| msgid ""
-#| "Full\n"
-#| "Update"
 msgid "Full Update"
-msgstr ""
-"Completo\n"
-"Aggiornare"
+msgstr "Completo Aggiornare"
 
 msgid "Go Back"
 msgstr "Indietro"
@@ -402,10 +387,8 @@ msgstr "Home Z"
 msgid "Homing"
 msgstr "Homing"
 
-#, fuzzy
-#| msgid "Hostname"
 msgid "Host"
-msgstr "Hostname"
+msgstr "-"
 
 msgid "Hostname"
 msgstr "Hostname"
@@ -440,14 +423,8 @@ msgstr "Inverti Y"
 msgid "Invert Z"
 msgstr "Inverti Z"
 
-#, fuzzy
-#| msgid ""
-#| "Klipper\n"
-#| "Restart"
 msgid "Klipper Restart"
-msgstr ""
-"Klipper\n"
-"Riavvio"
+msgstr "Klipper. Riavvio"
 
 msgid "Klipper has disconnected"
 msgstr "Klipper è disconnesso"
@@ -760,23 +737,11 @@ msgstr "Avvio aggiornamento per"
 msgid "System"
 msgstr "Sistema"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Restart"
 msgid "System Restart"
-msgstr ""
-"Riavvia\n"
-"Sistema"
+msgstr "Riavvia Sistema"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Shutdown"
 msgid "System Shutdown"
-msgstr ""
-"Spegni\n"
-"Sistema"
+msgstr "Spegni Sistema"
 
 msgid "Temp (°C)"
 msgstr "Temp (°C)"

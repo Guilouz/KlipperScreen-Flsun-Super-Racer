@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-09-05 11:41+0200\n"
+"PO-Revision-Date: 2022-09-08 23:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -18,6 +18,54 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
 "|| n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.1.1\n"
+
+msgid "Neopixels"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Violet"
+msgstr ""
+
+msgid "Hotend (All)"
+msgstr ""
+
+msgid "Hotend (One by One)"
+msgstr ""
+
+msgid "Bed (All)"
+msgstr ""
+
+msgid "Bed (One by One)"
+msgstr ""
+
+msgid "Progress (All)"
+msgstr ""
+
+msgid "Progress (One by One)"
+msgstr ""
+
+msgid "Speed (All)"
+msgstr ""
+
+msgid "Speed (One by One)"
+msgstr ""
 
 msgid "Shutdown"
 msgstr ""
@@ -53,57 +101,6 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
-msgstr ""
-
-msgid "Light"
-msgstr ""
-
-msgid "LED On"
-msgstr ""
-
-msgid "LED Off"
-msgstr ""
-
-msgid "Blue"
-msgstr ""
-
-msgid "Red"
-msgstr ""
-
-msgid "Green"
-msgstr ""
-
-msgid "Yellow"
-msgstr ""
-
-msgid "Orange"
-msgstr ""
-
-msgid "Violet"
-msgstr ""
-
-msgid "Nozzle (All)"
-msgstr ""
-
-msgid "Nozzle (Progressive)"
-msgstr ""
-
-msgid "Bed (All)"
-msgstr ""
-
-msgid "Bed (Progressive)"
-msgstr ""
-
-msgid "Progress (All)"
-msgstr ""
-
-msgid "Progress (Progressive)"
-msgstr ""
-
-msgid "Speed (All)"
-msgstr ""
-
-msgid "Speed (Progressive)"
 msgstr ""
 
 #, python-format
@@ -342,8 +339,6 @@ msgstr "Regulacja Precyzyjna"
 msgid "Finish"
 msgstr "Zakończ"
 
-#, fuzzy
-#| msgid "Restart"
 msgid "Firmware Restart"
 msgstr "Restartuj"
 
@@ -356,14 +351,8 @@ msgstr ""
 msgid "Font Size"
 msgstr "Rozmiar trzcionki"
 
-#, fuzzy
-#| msgid ""
-#| "Full\n"
-#| "Update"
 msgid "Full Update"
-msgstr ""
-"Pełny\n"
-"Aktualizacja"
+msgstr "Pełny Aktualizacja"
 
 msgid "Go Back"
 msgstr "Powróć"
@@ -759,23 +748,11 @@ msgstr "Zacznij uaktualnienie dla"
 msgid "System"
 msgstr "System"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Restart"
 msgid "System Restart"
-msgstr ""
-"Restart\n"
-"Systemu"
+msgstr "Restart Systemu"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Shutdown"
 msgid "System Shutdown"
-msgstr ""
-"Wyłączanie\n"
-" systemu"
+msgstr "Wyłączanie systemu"
 
 msgid "Temp (°C)"
 msgstr "Temp (°C)"

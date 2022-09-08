@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-09-05 11:42+0200\n"
+"PO-Revision-Date: 2022-09-08 23:44+0200\n"
 "Last-Translator: Jakob Kais <schpuntik@freenet.de>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -18,6 +18,54 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Flags-xgettext: --add-comments\n"
+
+msgid "Neopixels"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Yellow"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Violet"
+msgstr ""
+
+msgid "Hotend (All)"
+msgstr ""
+
+msgid "Hotend (One by One)"
+msgstr ""
+
+msgid "Bed (All)"
+msgstr ""
+
+msgid "Bed (One by One)"
+msgstr ""
+
+msgid "Progress (All)"
+msgstr ""
+
+msgid "Progress (One by One)"
+msgstr ""
+
+msgid "Speed (All)"
+msgstr ""
+
+msgid "Speed (One by One)"
+msgstr ""
 
 msgid "Shutdown"
 msgstr ""
@@ -53,57 +101,6 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
-msgstr ""
-
-msgid "Light"
-msgstr ""
-
-msgid "LED On"
-msgstr ""
-
-msgid "LED Off"
-msgstr ""
-
-msgid "Blue"
-msgstr ""
-
-msgid "Red"
-msgstr ""
-
-msgid "Green"
-msgstr ""
-
-msgid "Yellow"
-msgstr ""
-
-msgid "Orange"
-msgstr ""
-
-msgid "Violet"
-msgstr ""
-
-msgid "Nozzle (All)"
-msgstr ""
-
-msgid "Nozzle (Progressive)"
-msgstr ""
-
-msgid "Bed (All)"
-msgstr ""
-
-msgid "Bed (Progressive)"
-msgstr ""
-
-msgid "Progress (All)"
-msgstr ""
-
-msgid "Progress (Progressive)"
-msgstr ""
-
-msgid "Speed (All)"
-msgstr ""
-
-msgid "Speed (Progressive)"
 msgstr ""
 
 #, python-format
@@ -342,14 +339,8 @@ msgstr "Точная настройка"
 msgid "Finish"
 msgstr "Конец"
 
-#, fuzzy
-#| msgid ""
-#| "Firmware\n"
-#| "Restart"
 msgid "Firmware Restart"
-msgstr ""
-"Прошивка\n"
-"Рестарт"
+msgstr "Прошивка Рестарт"
 
 msgid "Flow:"
 msgstr ""
@@ -360,14 +351,8 @@ msgstr ""
 msgid "Font Size"
 msgstr "Размер шрифта"
 
-#, fuzzy
-#| msgid ""
-#| "Full\n"
-#| "Update"
 msgid "Full Update"
-msgstr ""
-"Полный\n"
-"Обновлять"
+msgstr "Полный Обновлять"
 
 msgid "Go Back"
 msgstr "Назад"
@@ -408,10 +393,8 @@ msgstr "Парковать Z"
 msgid "Homing"
 msgstr "Парковка"
 
-#, fuzzy
-#| msgid "Hostname"
 msgid "Host"
-msgstr "Имя хоста"
+msgstr ""
 
 msgid "Hostname"
 msgstr "Имя хоста"
@@ -446,14 +429,8 @@ msgstr "Инверсия Y"
 msgid "Invert Z"
 msgstr "Инверсия Z"
 
-#, fuzzy
-#| msgid ""
-#| "Klipper\n"
-#| "Restart"
 msgid "Klipper Restart"
-msgstr ""
-"Klipper\n"
-"Рестарт"
+msgstr "Klipper Рестарт"
 
 msgid "Klipper has disconnected"
 msgstr "Нет связи с Klipper"
@@ -767,19 +744,9 @@ msgstr "Запуск обновления для"
 msgid "System"
 msgstr "Система"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Restart"
 msgid "System Restart"
-msgstr ""
-"Рестарт\n"
-"Системы"
+msgstr "Рестарт Системы"
 
-#, fuzzy
-#| msgid ""
-#| "System\n"
-#| "Shutdown"
 msgid "System Shutdown"
 msgstr "Выключить"
 
