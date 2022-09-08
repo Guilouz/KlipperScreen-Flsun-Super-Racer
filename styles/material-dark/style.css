@@ -6,6 +6,8 @@
 
 window {
     background-color: #121212;
+    background-image: url("./styles/material-dark/background.svg");
+    background-size: cover;
 }
 
 button {
