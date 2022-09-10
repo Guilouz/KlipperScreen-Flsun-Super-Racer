@@ -70,7 +70,16 @@ install_script: scripts/KlipperScreen-install.sh
 
 ## Notes
 
-This version of KlipperScreen must be used with this Macros to save Z-Offset in real time.
+Calibrations Menu use the following Macros:
+
+- `Endstops Calibrate` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
+- `Calibrate` function use `[gcode_macro DELTA_CALIBRATION]`
+- `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
+- `Move Z0` function in `Z Calibrate` menu use `[gcode_macro MOVE_TO_Z0]`
+
+<br />
+
+This version of KlipperScreen must be used with this Macros to save Z-Offset in real time:
 ```
 [gcode_macro SET_GCODE_OFFSET]
 description: Save Z-Offset value
