@@ -119,7 +119,7 @@ gcode:
 
 ## Changelog
 
-- 11/09/2022 : Added settings to Show Heather Power
+- 11/09/2022 : Added settings to Show Heater Power
 - 10/09/2022 : Some menus now use Macros
 - 05/09/2022 : Updated to latest KlipperScreen v0.2.6
 - 03/09/2022 : Improvements
