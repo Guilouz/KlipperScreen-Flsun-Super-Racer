@@ -89,7 +89,7 @@ class KlipperScreenConfig:
             {printer[8:]: {
                 "moonraker_host": self.config.get(printer, "moonraker_host", fallback="127.0.0.1"),
                 "moonraker_port": self.config.get(printer, "moonraker_port", fallback="7125"),
-                "moonraker_api_key": self.config.get(printer, "moonraker_api_key", fallback="")
+                "moonraker_api_key": self.config.get(printer, "moonraker_api_key", fallback="").replace('"', '')
             }} for printer in printers
         ]
 
@@ -112,16 +112,16 @@ class KlipperScreenConfig:
 
     def validate_config(self):
         valid = True
-        bools = strs = numbers = ()
         for section in self.config:
             if section == 'DEFAULT' or section.startswith('include '):
                 # Do not validate 'DEFAULT' or 'include*' sections
                 continue
-
+            bools = strs = numbers = ()
             if section == 'main':
                 bools = (
                     'invert_x', 'invert_y', 'invert_z', '24htime', 'only_heaters', 'show_cursor', 'confirm_estop',
-                    'autoclose_popups', 'use_dpms', 'use_default_menu', 'side_macro_shortcut', 'use-matchbox-keyboard'
+                    'autoclose_popups', 'use_dpms', 'use_default_menu', 'side_macro_shortcut', 'use-matchbox-keyboard',
+                    'show_heater_power'
                 )
                 strs = (
                     'default_printer', 'language', 'print_sort_dir', 'theme', 'screen_blanking', 'font_size',
@@ -165,7 +165,7 @@ class KlipperScreenConfig:
                     msg = f'Option "{key}" not recognized for section "[{section}]"'
                     self.errors.append(msg)
                     # This most probably is not a big issue, continue to load the config
-                elif key in numbers and not self.config[section][key].isnumeric() \
+                elif key in numbers and not self.is_float(self.config[section][key]) \
                         or key in bools and self.config[section][key] not in ["False", "false", "True", "true"]:
                     msg = (
                         f'Unable to parse "{key}" from [{section}]\n'
@@ -174,6 +174,14 @@ class KlipperScreenConfig:
                     self.errors.append(msg)
                     valid = False
         return valid
+
+    @staticmethod
+    def is_float(element):
+        try:
+            float(element)
+            return True
+        except ValueError:
+            return False
 
     def get_errors(self):
         return "".join(f'{error}\n\n' for error in self.errors)
@@ -214,7 +222,7 @@ class KlipperScreenConfig:
             {"confirm_estop": {"section": "main", "name": _("Confirm Emergency Stop"), "type": "binary",
                                "value": "False"}},
             {"only_heaters": {"section": "main", "name": _("Hide sensors in Temp."), "type": "binary",
-                              "value": "False", "callback": screen.restart_warning}},
+                              "value": "False", "callback": screen.reload_panels}},
             {"use_dpms": {"section": "main", "name": _("Screen DPMS"), "type": "binary",
                           "value": "True", "callback": screen.set_dpms}},
             {"print_estimate_compensation": {
@@ -222,7 +230,8 @@ class KlipperScreenConfig:
                 "range": [50, 150], "step": 1}},
             {"autoclose_popups": {"section": "main", "name": _("Auto-close notifications"), "type": "binary",
                                   "value": "True"}},
-
+            {"show_heater_power": {"section": "main", "name": _("Show Heater Power"), "type": "binary",
+                                   "value": "False", "callback": screen.reload_panels}},
             # {"": {"section": "main", "name": _(""), "type": ""}}
         ]
 
@@ -394,7 +403,7 @@ class KlipperScreenConfig:
         if name not in self.config:
             return False
         cfg = self.config[name]
-        return {opt: cfg.get("gcode", None) if opt == "gcode" else cfg.getint(opt, None) for opt in cfg}
+        return {opt: cfg.get("gcode", None) if opt == "gcode" else cfg.getfloat(opt, None) for opt in cfg}
 
     def get_printer_config(self, name):
         if not name.startswith("printer "):
@@ -423,17 +432,18 @@ class KlipperScreenConfig:
                     save_config.add_section(opt['section'])
                 save_config.set(opt['section'], name, str(curval))
 
-        macro_sections = [i for i in self.config.sections() if i.startswith("displayed_macros")]
-        for macro_sec in macro_sections:
-            for item in self.config.options(macro_sec):
-                value = self.config[macro_sec].getboolean(item, fallback=True)
+        extra_sections = [i for i in self.config.sections() if i.startswith("displayed_macros")]
+        extra_sections.extend([i for i in self.config.sections() if i.startswith("graph")])
+        for section in extra_sections:
+            for item in self.config.options(section):
+                value = self.config[section].getboolean(item, fallback=True)
                 if value is False or (self.defined_config is not None and
-                                      macro_sec in self.defined_config.sections() and
-                                      self.defined_config[macro_sec].getboolean(item, fallback=True) is False and
-                                      self.defined_config[macro_sec].getboolean(item, fallback=True) != value):
-                    if macro_sec not in save_config.sections():
-                        save_config.add_section(macro_sec)
-                    save_config.set(macro_sec, item, str(value))
+                                      section in self.defined_config.sections() and
+                                      self.defined_config[section].getboolean(item, fallback=True) is False and
+                                      self.defined_config[section].getboolean(item, fallback=True) != value):
+                    if section not in save_config.sections():
+                        save_config.add_section(section)
+                    save_config.set(section, item, str(value))
 
         save_output = self._build_config_string(save_config).split("\n")
         for i in range(len(save_output)):
