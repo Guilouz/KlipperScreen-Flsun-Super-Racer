@@ -119,6 +119,7 @@ gcode:
 
 ## Changelog
 
+- 18/09/2022 : Added support for bed mesh profiles and bed mesh visualization
 - 11/09/2022 : Added settings to Show Heater Power
 - 10/09/2022 : Some menus now use Macros
 - 05/09/2022 : Updated to latest KlipperScreen v0.2.6
