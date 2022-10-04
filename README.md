@@ -81,6 +81,8 @@ Calibrations Menu use the following Macros:
 - `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
 - `Move Z0` function in `Z Calibrate` menu use `[gcode_macro MOVE_TO_Z0]`
 
+My Macros can be found here : [macros.cfg](https://github.com/Guilouz/Klipper-Flsun-Super-Racer/blob/main/Configurations/macros.cfg)
+
 <br />
 
 This version of KlipperScreen must be used with this Macros to save Z-Offset in real time:
@@ -119,6 +121,7 @@ gcode:
 
 ## Changelog
 
+- 04/10/2022 : Latest KlipperScreen commits
 - 23/09/2022 : Added layers on Job Status Screen
 - 18/09/2022 : Added support for bed mesh profiles and bed mesh visualization
 - 11/09/2022 : Added settings to Show Heater Power
