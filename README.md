@@ -74,18 +74,35 @@ install_script: scripts/KlipperScreen-install.sh
 
 ## Notes
 
-Calibrations Menu use the following Macros:
+My Macros for Super Racer can be found here : [macros.cfg](https://github.com/Guilouz/Klipper-Flsun-Super-Racer/blob/main/Configurations/macros.cfg)
 
-- `Endstops Calibrate` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
-- `Calibrate` function use `[gcode_macro DELTA_CALIBRATION]`
-- `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
-- `Move Z0` function in `Z Calibrate` menu use `[gcode_macro MOVE_TO_Z0]`
+- Calibrations Menu use the following Macros:
 
-My Macros can be found here : [macros.cfg](https://github.com/Guilouz/Klipper-Flsun-Super-Racer/blob/main/Configurations/macros.cfg)
+  - `Endstops Calibrate` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
+  - `Calibrate` function use `[gcode_macro DELTA_CALIBRATION]`
+  - `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
+  - `Move Z0` function in `Z Calibrate` menu use `[gcode_macro MOVE_TO_Z0]`
 
 <br />
 
-This version of KlipperScreen must be used with this Macros to save Z-Offset in real time:
+- To use `M600` Macro, you need to change `[filament_switch_sensor filament_sensor]` section in your `printer.cfg` file like this:
+```
+[filament_switch_sensor filament_sensor]
+pause_on_runout: True
+runout_gcode: M600
+...
+```
+
+<br />
+
+- To have screen notifications, add this in your `printer.cfg` file
+```
+[respond]
+```
+
+<br />
+
+- This version of KlipperScreen must be used with this Macros to save Z-Offset in real time:
 ```
 [gcode_macro SET_GCODE_OFFSET]
 description: Save Z-Offset value
