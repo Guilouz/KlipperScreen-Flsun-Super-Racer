@@ -95,7 +95,7 @@ runout_gcode: M600
 
 <br />
 
-- To have screen notifications, add this in your `printer.cfg` file
+- To have screen notifications, add this in your `printer.cfg` file:
 ```
 [respond]
 ```
