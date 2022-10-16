@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-09-11 14:34+0200\n"
+"PO-Revision-Date: 2022-10-16 14:29+0200\n"
 "Last-Translator: alfrix\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -17,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.1.1\n"
-
-msgid "Show Heater Power"
-msgstr ""
 
 msgid "Neopixels"
 msgstr ""
@@ -67,9 +64,6 @@ msgid "Speed (All)"
 msgstr ""
 
 msgid "Speed (One by One)"
-msgstr ""
-
-msgid "Shutdown"
 msgstr ""
 
 msgid "Print Status"
@@ -149,6 +143,9 @@ msgstr "Aplicar %.2f desfase al final de carrera?"
 #, python-format
 msgid "Apply %s%.2f offset to Probe?"
 msgstr "Aplicar %s%.2f desfase al sensor?"
+
+msgid "Are you sure do you want to exclude the object?"
+msgstr ""
 
 msgid "Are you sure you want to run Emergency Stop?"
 msgstr "¿Parada de emergencia?"
@@ -470,9 +467,6 @@ msgstr "Cargar"
 msgid "Lower Nozzle"
 msgstr "Bajar Boquilla"
 
-msgid "Machine"
-msgstr ""
-
 msgid "Macro shortcut on sidebar"
 msgstr "Atajo a Macros en el lateral"
 
@@ -586,6 +580,9 @@ msgstr "Avance de presión:"
 msgid "Print"
 msgstr "Imprimir"
 
+msgid "Printer"
+msgstr ""
+
 msgid "Print Control"
 msgstr "Control de impresión"
 
@@ -694,6 +691,12 @@ msgstr "Opciones"
 msgid "Show"
 msgstr "Mostrar"
 
+msgid "Show Heater Power"
+msgstr ""
+
+msgid "Shutdown"
+msgstr ""
+
 msgid "Size"
 msgstr "Tamaño"
 
@@ -708,9 +711,6 @@ msgstr "Slicer:"
 
 msgid "Small"
 msgstr "Pequeño"
-
-msgid "Sort by: "
-msgstr "Ordenar por: "
 
 msgid "Sort:"
 msgstr "Ordenar:"
