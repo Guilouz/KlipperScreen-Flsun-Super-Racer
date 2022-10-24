@@ -18,6 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
+msgid "Splash Screen"
+msgstr ""
+
+msgid "Printer Select"
+msgstr ""
+
 msgid "Neopixels"
 msgstr ""
 
