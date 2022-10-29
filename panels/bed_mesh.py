@@ -115,11 +115,10 @@ class BedMeshPanel(ScreenPanel):
 
         button_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=5)
         if profile != "default":
-            button_box.add(buttons["save"]) # Changes
-        if self._printer.get_config_section(f"bed_mesh {profile}"): # Changes
-            button_box.add(buttons["delete"]) # Changes
-            button_box.add(buttons["load"])
-            button_box.add(buttons["view"])
+            button_box.add(buttons["save"])
+        button_box.add(buttons["delete"])
+        button_box.add(buttons["view"])
+        button_box.add(buttons["load"])
         
 
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=5)
