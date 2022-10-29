@@ -69,7 +69,6 @@ class ZCalibratePanel(ScreenPanel):
         self.content.add(grid)
 
     def process_update(self, action, data):
-        _ = self.lang.gettext
 
         if action != "notify_status_update":
             return
