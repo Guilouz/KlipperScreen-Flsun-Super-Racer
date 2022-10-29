@@ -23,7 +23,7 @@ class ExtrudePanel(ScreenPanel):
         self.load_filament = any("LOAD_FILAMENT" in macro.upper() for macro in macros)
         self.unload_filament = any("UNLOAD_FILAMENT" in macro.upper() for macro in macros)
 
-        self.speeds = ['1', '2', '5', '10'] # Changes
+        self.speeds = ['1', '2', '5', '25']
         self.speed = int(self.speeds[1])
         self.distances = ['5', '10', '15', '25']
         self.distance = int(self.distances[1])
@@ -34,7 +34,7 @@ class ExtrudePanel(ScreenPanel):
                 dis = [str(i.strip()) for i in dis.split(',')]
                 if 1 < len(dis) < 5:
                     self.distances = dis
-            vel = print_cfg.get("extrude_speeds", '1, 2, 5, 10') # Changes
+            vel = print_cfg.get("extrude_speeds", '1, 2, 5, 25')
             if re.match(r'^[0-9,\s]+$', vel):
                 vel = [str(i.strip()) for i in vel.split(',')]
                 if 1 < len(vel) < 5:
