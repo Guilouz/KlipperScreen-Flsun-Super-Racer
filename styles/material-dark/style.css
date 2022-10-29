@@ -235,3 +235,7 @@ popover button {
 .error {
     background-color: #B71C1C;
 }
+
+.keyboard_pad {
+    background-color: #090909; /*base02*/
+}
