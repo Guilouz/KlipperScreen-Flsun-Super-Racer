@@ -20,7 +20,6 @@ class ZCalibratePanel(ScreenPanel):
     bs_deltas = ["0.01", "0.05", "0.1", "0.5", "1"]
 
     def initialize(self, panel_name):
-        _ = self.lang.gettext
 
         logging.debug("ZCalibratePanel")
 
