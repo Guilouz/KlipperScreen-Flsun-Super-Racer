@@ -38,7 +38,7 @@ class BedMeshPanel(ScreenPanel):
         clear.connect("clicked", self._clear_mesh)
         clear.set_hexpand(True)
         script = {"script": "BED_LEVELING"} # Changes
-        calibrate = self._gtk.ButtonImage("refresh", " " + _("Calibrate"), "color3", .66, Gtk.PositionType.LEFT, 1)
+        calibrate = self._gtk.ButtonImage("refresh", " " + _("Bed Level"), "color3", .66, Gtk.PositionType.LEFT, 1)
         calibrate.connect("clicked", self._screen._confirm_send_action,
                                           _("Please plug in leveling switch before auto-leveling."),
                                           "printer.gcode.script", script) # Changes
