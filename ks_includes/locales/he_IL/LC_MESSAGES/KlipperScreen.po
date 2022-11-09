@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Klipperscreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-10-29 01:14+0200\n"
+"POT-Creation-Date: 2022-11-09 23:55+0100\n"
+"PO-Revision-Date: 2022-11-09 23:56+0100\n"
 "Last-Translator: Emanuel Sharvit <manu7irl@gmail.com>\n"
 "Language-Team: \n"
 "Language: he_IL\n"
@@ -19,6 +19,9 @@ msgstr ""
 "2 : 3);\n"
 "X-Generator: Poedit 3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "No mesh has been loaded"
+msgstr ""
 
 msgid "Splash Screen"
 msgstr ""
@@ -587,20 +590,20 @@ msgstr "פרשר אדוונס"
 msgid "Print"
 msgstr "הדפסה"
 
+msgid "Printer"
+msgstr "מדפסת"
+
 msgid "Print Control"
 msgstr "שליטה בהדפסה"
+
+msgid "Printer Select"
+msgstr ""
 
 msgid "Print Time"
 msgstr "זמן הדפסה"
 
-msgid "Printer"
-msgstr "מדפסת"
-
 msgid "Printer Connections"
 msgstr "חיבורי מדפסת"
-
-msgid "Printer Select"
-msgstr ""
 
 msgid "Printing"
 msgstr "מדפיס"

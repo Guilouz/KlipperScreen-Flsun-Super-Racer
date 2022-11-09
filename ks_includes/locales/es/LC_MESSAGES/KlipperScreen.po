@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-10-29 01:17+0200\n"
+"POT-Creation-Date: 2022-11-09 23:55+0100\n"
+"PO-Revision-Date: 2022-11-09 23:56+0100\n"
 "Last-Translator: alfrix\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2\n"
+
+msgid "No mesh has been loaded"
+msgstr ""
 
 msgid "Splash Screen"
 msgstr ""
@@ -585,20 +588,20 @@ msgstr "Avance de presión:"
 msgid "Print"
 msgstr "Imprimir"
 
+msgid "Printer"
+msgstr "Impresora"
+
 msgid "Print Control"
 msgstr "Control de impresión"
+
+msgid "Printer Select"
+msgstr "Seleccionar Impresora"
 
 msgid "Print Time"
 msgstr "Tiempo de impresión"
 
-msgid "Printer"
-msgstr "Impresora"
-
 msgid "Printer Connections"
 msgstr "Conexiones a impresoras"
-
-msgid "Printer Select"
-msgstr "Seleccionar Impresora"
 
 msgid "Printing"
 msgstr "Imprimiendo"

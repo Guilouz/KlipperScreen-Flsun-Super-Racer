@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:17-0300\n"
+"POT-Creation-Date: 2022-11-09 23:55+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: AntoszHUN\n"
 "Language-Team: \n"
@@ -12,6 +12,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2\n"
+
+msgid "No mesh has been loaded"
+msgstr ""
 
 msgid "Splash Screen"
 msgstr ""
@@ -580,20 +583,20 @@ msgstr "Nyomás előtolás:"
 msgid "Print"
 msgstr "Nyomtatás"
 
+msgid "Printer"
+msgstr "Nyomtató"
+
 msgid "Print Control"
 msgstr "Nyomtatásvezérlés"
+
+msgid "Printer Select"
+msgstr ""
 
 msgid "Print Time"
 msgstr "Nyomtatási idő"
 
-msgid "Printer"
-msgstr "Nyomtató"
-
 msgid "Printer Connections"
 msgstr "Nyomtató csatlakozások"
-
-msgid "Printer Select"
-msgstr ""
 
 msgid "Printing"
 msgstr "Nyomtatás"
