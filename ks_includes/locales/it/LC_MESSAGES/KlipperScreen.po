@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-09 23:55+0100\n"
+"POT-Creation-Date: 2022-07-12 22:17-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pappicio\n"
 "Language-Team: \n"
@@ -263,9 +263,6 @@ msgstr "Data"
 msgid "Decrease"
 msgstr "Diminuisci"
 
-msgid "Delete"
-msgstr "Elimina"
-
 msgid "Delete File?"
 msgstr ""
 
@@ -371,9 +368,6 @@ msgstr "Nascondi sensori in Temp."
 
 msgid "Hide temp."
 msgstr ""
-
-msgid "Home"
-msgstr "Inizio"
 
 msgid "Home All"
 msgstr "Home XYZ"
@@ -504,6 +498,9 @@ msgstr "Medio"
 msgid "Menu"
 msgstr "Menù"
 
+msgid "Mesh calibrate"
+msgstr ""
+
 msgid "Modified"
 msgstr "Modificato"
 
@@ -522,6 +519,9 @@ msgstr "Nome"
 msgid "Network"
 msgstr "Rete"
 
+msgid "Never"
+msgstr ""
+
 msgid "New"
 msgstr ""
 
@@ -532,9 +532,6 @@ msgstr ""
 
 msgid "Nothing selected"
 msgstr "Niente selezionato"
-
-msgid "Off"
-msgstr "Off"
 
 #, python-format
 msgid "Outdated by %d"
@@ -639,6 +636,9 @@ msgid "Retraction Length"
 msgstr ""
 
 msgid "Retraction Speed"
+msgstr ""
+
+msgid "Retry"
 msgstr ""
 
 #, python-format
@@ -794,9 +794,6 @@ msgstr "In aggiornamento"
 
 msgid "Uploaded"
 msgstr "Caricato"
-
-msgid "View Mesh"
-msgstr "Visual. Mesh"
 
 msgid "X+"
 msgstr "X+"

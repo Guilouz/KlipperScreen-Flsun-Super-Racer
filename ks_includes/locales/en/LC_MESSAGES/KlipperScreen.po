@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-09 23:55+0100\n"
+"POT-Creation-Date: 2022-07-12 22:17-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -263,9 +263,6 @@ msgstr ""
 msgid "Decrease"
 msgstr ""
 
-msgid "Delete"
-msgstr ""
-
 msgid "Delete File?"
 msgstr ""
 
@@ -370,9 +367,6 @@ msgid "Hide sensors in Temp."
 msgstr ""
 
 msgid "Hide temp."
-msgstr ""
-
-msgid "Home"
 msgstr ""
 
 msgid "Home All"
@@ -504,6 +498,9 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
+msgid "Mesh calibrate"
+msgstr ""
+
 msgid "Modified"
 msgstr ""
 
@@ -522,6 +519,9 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
+msgid "Never"
+msgstr ""
+
 msgid "New"
 msgstr ""
 
@@ -531,9 +531,6 @@ msgid ""
 msgstr ""
 
 msgid "Nothing selected"
-msgstr ""
-
-msgid "Off"
 msgstr ""
 
 #, python-format
@@ -639,6 +636,9 @@ msgid "Retraction Length"
 msgstr ""
 
 msgid "Retraction Speed"
+msgstr ""
+
+msgid "Retry"
 msgstr ""
 
 #, python-format
@@ -793,9 +793,6 @@ msgid "Updating"
 msgstr ""
 
 msgid "Uploaded"
-msgstr ""
-
-msgid "View Mesh"
 msgstr ""
 
 msgid "X+"

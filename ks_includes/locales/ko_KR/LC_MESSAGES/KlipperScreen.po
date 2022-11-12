@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-09 23:55+0100\n"
+"POT-Creation-Date: 2022-07-12 22:17-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: NSteven\n"
 "Language-Team: NSteven\n"
@@ -263,9 +263,6 @@ msgstr "날짜"
 msgid "Decrease"
 msgstr "낮추기"
 
-msgid "Delete"
-msgstr "삭제"
-
 msgid "Delete File?"
 msgstr ""
 
@@ -371,9 +368,6 @@ msgstr "온도 섹션에서 센서 항목 숨김."
 
 msgid "Hide temp."
 msgstr "온도 숨김"
-
-msgid "Home"
-msgstr "홈"
 
 msgid "Home All"
 msgstr "전체 홈"
@@ -504,6 +498,9 @@ msgstr "중간"
 msgid "Menu"
 msgstr "메뉴"
 
+msgid "Mesh calibrate"
+msgstr ""
+
 msgid "Modified"
 msgstr "수정됨"
 
@@ -522,6 +519,9 @@ msgstr "이름"
 msgid "Network"
 msgstr "네트워크"
 
+msgid "Never"
+msgstr ""
+
 msgid "New"
 msgstr "신규"
 
@@ -532,9 +532,6 @@ msgstr ""
 
 msgid "Nothing selected"
 msgstr "아무것도 선택하지 않ㅇ"
-
-msgid "Off"
-msgstr "끄기"
 
 #, python-format
 msgid "Outdated by %d"
@@ -639,6 +636,9 @@ msgstr "퇴추 길이"
 
 msgid "Retraction Speed"
 msgstr "퇴출 속도"
+
+msgid "Retry"
+msgstr ""
 
 #, python-format
 msgid "Retry #%s"
@@ -793,9 +793,6 @@ msgstr "업데이트 중.."
 
 msgid "Uploaded"
 msgstr "업로드됨"
-
-msgid "View Mesh"
-msgstr "메쉬 프로파일 보기"
 
 msgid "X+"
 msgstr "X+"
