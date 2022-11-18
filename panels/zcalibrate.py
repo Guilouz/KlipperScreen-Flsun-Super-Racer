@@ -28,7 +28,7 @@ class ZCalibratePanel(ScreenPanel):
                                           _("Please remove leveling switch before move Z0."),
                                           "printer.gcode.script", script)
         self.labels['home'] = self._gtk.ButtonImage("home", _("Home"), "color1")
-        self.labels['home'].connect("clicked", self.go_to_home, "home")
+        self.labels['home'].connect("clicked", self.home)
         self.labels['z+'] = self._gtk.ButtonImage("z-farther", _("Raise Nozzle"), "color1")  
         self.labels['z+'].connect("clicked", self.change_babystepping, "+")
         self.labels['zoffset'] = self._gtk.ButtonImage("refresh", " Z-Offset: 0.00" + _("mm"),
