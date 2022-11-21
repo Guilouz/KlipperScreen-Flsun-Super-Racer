@@ -159,6 +159,7 @@ gcode:
 
 ## Changelog
 
+- 21/11/2022 : Latest KlipperScreen commits
 - 18/11/2022 : Latest KlipperScreen commits
 - 09/11/2022 : Latest KlipperScreen commits
 - 04/11/2022 : Latest KlipperScreen commits

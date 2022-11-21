@@ -128,9 +128,6 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-msgid "Add Printer"
-msgstr ""
-
 msgid "Add profile"
 msgstr ""
 
@@ -294,6 +291,9 @@ msgstr ""
 msgid "Exclude Object"
 msgstr ""
 
+msgid "Extra Large"
+msgstr ""
+
 msgid "Extrude"
 msgstr ""
 
@@ -399,9 +399,6 @@ msgstr ""
 msgid "Increase"
 msgstr ""
 
-msgid "Initializing"
-msgstr ""
-
 msgid "Initializing printer..."
 msgstr ""
 
@@ -481,6 +478,9 @@ msgid "Max Acceleration to Deceleration"
 msgstr ""
 
 msgid "Max Velocity"
+msgstr ""
+
+msgid "Maximum"
 msgstr ""
 
 msgid "Measure Both"

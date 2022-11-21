@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-12 18:54+0100\n"
+"PO-Revision-Date: 2022-11-21 16:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -133,9 +133,6 @@ msgstr "Akceptuj"
 
 msgid "Actions"
 msgstr "Akcje"
-
-msgid "Add Printer"
-msgstr "Dodaj drukarkę"
 
 msgid "Add profile"
 msgstr ""
@@ -300,6 +297,9 @@ msgstr "Sposób Oszacowania Czasu"
 msgid "Exclude Object"
 msgstr ""
 
+msgid "Extra Large"
+msgstr ""
+
 msgid "Extrude"
 msgstr "Extruduj"
 
@@ -405,9 +405,6 @@ msgstr "Motyw Ikon"
 msgid "Increase"
 msgstr "Zwiększ"
 
-msgid "Initializing"
-msgstr "Startowanie"
-
 msgid "Initializing printer..."
 msgstr "Drukarka Startuje..."
 
@@ -488,6 +485,9 @@ msgstr "Maks Przyśpieszenie i Opóźnienie"
 
 msgid "Max Velocity"
 msgstr "Maks Prędkość"
+
+msgid "Maximum"
+msgstr ""
 
 msgid "Measure Both"
 msgstr ""

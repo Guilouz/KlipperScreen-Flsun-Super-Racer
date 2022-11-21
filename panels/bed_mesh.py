@@ -1,6 +1,7 @@
-import gi
 import logging
 import contextlib
+
+import gi
 
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk, Pango
@@ -142,7 +143,7 @@ class BedMeshPanel(ScreenPanel):
         if profile != "default":
             button_box.add(buttons["save"])
         button_box.add(buttons["delete"])
-        
+
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=5)
         box.pack_start(name, True, True, 0)
         box.pack_start(button_box, False, False, 0)
@@ -270,7 +271,7 @@ class BedMeshPanel(ScreenPanel):
         self._screen._ws.klippy.gcode_script("BED_MESH_CALIBRATE")
 
         # Load zcalibrate to do a manual mesh
-        if not (self._printer.config_section_exists("probe") or self._printer.config_section_exists("bltouch")):
+        if not self._screen.printer.get_probe():
             self.menu_item_clicked(widget, "refresh", {"name": _("Mesh calibrate"), "panel": "zcalibrate"})
 
     def send_clear_mesh(self, widget):

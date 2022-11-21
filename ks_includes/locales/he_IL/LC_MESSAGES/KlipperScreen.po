@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Klipperscreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-12 18:52+0100\n"
+"PO-Revision-Date: 2022-11-21 16:41+0100\n"
 "Last-Translator: Emanuel Sharvit <manu7irl@gmail.com>\n"
 "Language-Team: \n"
 "Language: he_IL\n"
@@ -134,9 +134,6 @@ msgstr "אשר"
 
 msgid "Actions"
 msgstr "פעולות"
-
-msgid "Add Printer"
-msgstr "הוסף מדפסת"
 
 msgid "Add profile"
 msgstr "הוסף פרופיל"
@@ -301,6 +298,9 @@ msgstr "שיטת זמן משוערת"
 msgid "Exclude Object"
 msgstr "ביטול אובייקט"
 
+msgid "Extra Large"
+msgstr ""
+
 msgid "Extrude"
 msgstr "הוצא חומר"
 
@@ -406,9 +406,6 @@ msgstr "ערכת נושא"
 msgid "Increase"
 msgstr "הגדל"
 
-msgid "Initializing"
-msgstr "מאתחל"
-
 msgid "Initializing printer..."
 msgstr "מאתחל מדפסת..."
 
@@ -489,6 +486,9 @@ msgstr "האצה מרבית להאטה"
 
 msgid "Max Velocity"
 msgstr "מהירות מרבית"
+
+msgid "Maximum"
+msgstr ""
 
 msgid "Measure Both"
 msgstr "מדוד את שניהם"

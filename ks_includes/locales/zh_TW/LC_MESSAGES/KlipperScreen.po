@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-12 18:57+0100\n"
+"PO-Revision-Date: 2022-11-21 16:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -132,9 +132,6 @@ msgstr "接受"
 
 msgid "Actions"
 msgstr "動作"
-
-msgid "Add Printer"
-msgstr "新增列印機"
 
 msgid "Add profile"
 msgstr ""
@@ -299,6 +296,9 @@ msgstr "預估時間方法"
 msgid "Exclude Object"
 msgstr ""
 
+msgid "Extra Large"
+msgstr ""
+
 msgid "Extrude"
 msgstr "擠出機"
 
@@ -404,9 +404,6 @@ msgstr "圖標主題"
 msgid "Increase"
 msgstr "增加"
 
-msgid "Initializing"
-msgstr "初始化中"
-
 msgid "Initializing printer..."
 msgstr "初始化列印機中.."
 
@@ -487,6 +484,9 @@ msgstr "最大加速到減速"
 
 msgid "Max Velocity"
 msgstr "最大速度"
+
+msgid "Maximum"
+msgstr ""
 
 msgid "Measure Both"
 msgstr ""

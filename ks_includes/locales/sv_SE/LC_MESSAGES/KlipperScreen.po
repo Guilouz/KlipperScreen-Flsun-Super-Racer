@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-12 18:55+0100\n"
+"PO-Revision-Date: 2022-11-21 16:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -132,9 +132,6 @@ msgstr "Godkänn"
 
 msgid "Actions"
 msgstr "Åtgärder"
-
-msgid "Add Printer"
-msgstr "Lägg till skrivare"
 
 msgid "Add profile"
 msgstr ""
@@ -299,6 +296,9 @@ msgstr ""
 msgid "Exclude Object"
 msgstr ""
 
+msgid "Extra Large"
+msgstr ""
+
 msgid "Extrude"
 msgstr "Extrudera"
 
@@ -404,9 +404,6 @@ msgstr "Ikon tema"
 msgid "Increase"
 msgstr "Öka"
 
-msgid "Initializing"
-msgstr "Initierar"
-
 msgid "Initializing printer..."
 msgstr "Initierar skrivaren..."
 
@@ -486,6 +483,9 @@ msgid "Max Acceleration to Deceleration"
 msgstr ""
 
 msgid "Max Velocity"
+msgstr ""
+
+msgid "Maximum"
 msgstr ""
 
 msgid "Measure Both"
