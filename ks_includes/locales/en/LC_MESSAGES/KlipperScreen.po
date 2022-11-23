@@ -13,6 +13,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2\n"
 
+msgid "Please wait..."
+msgstr ""
+
 msgid "No mesh has been loaded"
 msgstr ""
 
@@ -191,9 +194,6 @@ msgid "Calibrated, save configuration to make it permanent"
 msgstr ""
 
 msgid "Calibrating"
-msgstr ""
-
-msgid "Calibrating..."
 msgstr ""
 
 msgid "Can't set above the maximum:"
@@ -641,10 +641,6 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#, python-format
-msgid "Retry #%s"
-msgstr ""
-
 msgid "Retrying"
 msgstr ""
 
@@ -795,22 +791,10 @@ msgstr ""
 msgid "Uploaded"
 msgstr ""
 
-msgid "X+"
-msgstr ""
-
-msgid "X-"
-msgstr ""
-
 msgid "XY Move Speed (mm/s)"
 msgstr ""
 
 msgid "XY Speed (mm/s)"
-msgstr ""
-
-msgid "Y+"
-msgstr ""
-
-msgid "Y-"
 msgstr ""
 
 msgid "Z Calibrate"
@@ -826,12 +810,6 @@ msgid "Z Tilt"
 msgstr ""
 
 msgid "Z offset:"
-msgstr ""
-
-msgid "Z+"
-msgstr ""
-
-msgid "Z-"
 msgstr ""
 
 msgid "commit"

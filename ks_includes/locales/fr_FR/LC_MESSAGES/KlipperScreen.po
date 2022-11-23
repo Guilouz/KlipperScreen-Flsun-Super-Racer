@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-21 16:41+0100\n"
+"PO-Revision-Date: 2022-11-23 02:10+0100\n"
 "Last-Translator: Cyril Guislain\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.2\n"
+
+msgid "Please wait..."
+msgstr "Patientez…"
 
 msgid "No mesh has been loaded"
 msgstr "Aucun maillage n’a été chargé"
@@ -200,9 +203,6 @@ msgstr "Calibré, enregistrez la configuration pour la rendre permanente"
 
 msgid "Calibrating"
 msgstr "Calibration"
-
-msgid "Calibrating..."
-msgstr "Calibration…"
 
 msgid "Can't set above the maximum:"
 msgstr "Impossible de définir au-dessus du maximum:"
@@ -651,10 +651,6 @@ msgstr "Vitesse de rétraction"
 msgid "Retry"
 msgstr "Réessayer"
 
-#, python-format
-msgid "Retry #%s"
-msgstr "Réessayer #%s"
-
 msgid "Retrying"
 msgstr "Réessaye"
 
@@ -805,23 +801,11 @@ msgstr "Mise à jour"
 msgid "Uploaded"
 msgstr "Envoyé"
 
-msgid "X+"
-msgstr "X+"
-
-msgid "X-"
-msgstr "X-"
-
 msgid "XY Move Speed (mm/s)"
 msgstr "Vitesse de déplacement XY (mm/s)"
 
 msgid "XY Speed (mm/s)"
 msgstr "Vitesse XY (mm/s)"
-
-msgid "Y+"
-msgstr "Y+"
-
-msgid "Y-"
-msgstr "Y-"
 
 msgid "Z Calibrate"
 msgstr "Calibration Z"
@@ -837,12 +821,6 @@ msgstr "Z-Tilt"
 
 msgid "Z offset:"
 msgstr "Z-Offset:"
-
-msgid "Z+"
-msgstr "Z+"
-
-msgid "Z-"
-msgstr "Z-"
 
 msgid "commit"
 msgid_plural "commits"
