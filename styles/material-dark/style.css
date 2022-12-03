@@ -19,7 +19,7 @@ button:active {
 }
 
 .button_active {
-    background-color: rgba(0,0,0,5);
+    background-color: rgba(0,0,0,0.5);
     border-radius: 1em;
 }
 
@@ -91,11 +91,6 @@ switch slider {
 entry {
     background-color: #1f1f1f;
     border-color: rgba(0,0,0,0);
-}
-
-frame {
-    color: #e2e2e2;
-    border-bottom-color: #1f1f1f;
 }
 
 label {

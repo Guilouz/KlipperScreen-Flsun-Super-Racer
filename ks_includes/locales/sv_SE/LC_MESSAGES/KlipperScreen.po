@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-27 19:04+0100\n"
+"PO-Revision-Date: 2022-12-03 02:31+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -16,7 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgid "Min"
+msgstr ""
 
 msgid "Home is required before resetting Z-Offset!"
 msgstr ""
@@ -419,6 +422,9 @@ msgstr "Gränssnitt"
 msgid "Invalid"
 msgstr "Ogiltig"
 
+msgid "Invalid password"
+msgstr ""
+
 msgid "Invert X"
 msgstr "Invertera X"
 
@@ -445,6 +451,9 @@ msgstr "Klipper försöker starta"
 
 msgid "Klipper will reboot"
 msgstr "Klipper kommer att starta om"
+
+msgid "KlipperScreen will reboot"
+msgstr ""
 
 msgid "Language"
 msgstr "Språk"
@@ -610,10 +619,16 @@ msgstr ""
 msgid "Profile Name:"
 msgstr "Profilens namn:"
 
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr ""
+
 msgid "Quad Gantry Level"
 msgstr ""
 
 msgid "Raise Nozzle"
+msgstr ""
+
+msgid "Recover"
 msgstr ""
 
 msgid "Recover Hard"
@@ -720,9 +735,6 @@ msgstr ""
 msgid "Small"
 msgstr "Liten"
 
-msgid "Sort:"
-msgstr ""
-
 msgid "Speed (mm/s)"
 msgstr "Hastighet (mm/s)"
 
@@ -764,10 +776,6 @@ msgstr "Temperatur (°C)"
 
 msgid "Temperature"
 msgstr "Temperatur"
-
-#, python-format
-msgid "To apply %s KlipperScreen needs to be restarted"
-msgstr "För att tillämpa %s måste KlipperScreen startas om"
 
 msgid "Total:"
 msgstr ""
@@ -844,3 +852,6 @@ msgstr "mm/s"
 
 msgid "mm/s²"
 msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr ""

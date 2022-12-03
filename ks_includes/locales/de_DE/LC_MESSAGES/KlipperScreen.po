@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-11-27 19:02+0100\n"
+"PO-Revision-Date: 2022-12-03 02:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -16,7 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
+
+msgid "Min"
+msgstr ""
 
 msgid "Home is required before resetting Z-Offset!"
 msgstr ""
@@ -429,6 +432,9 @@ msgstr "Interface"
 msgid "Invalid"
 msgstr "Ungültig"
 
+msgid "Invalid password"
+msgstr ""
+
 msgid "Invert X"
 msgstr "Achse X invertieren"
 
@@ -455,6 +461,9 @@ msgstr "Klipper ist startbereit"
 
 msgid "Klipper will reboot"
 msgstr "Klipper startet neu"
+
+msgid "KlipperScreen will reboot"
+msgstr ""
 
 msgid "Language"
 msgstr "Sprache"
@@ -620,11 +629,17 @@ msgstr ""
 msgid "Profile Name:"
 msgstr "Profilname:"
 
+msgid "Provide KlipperScreen.log when asking for help.\n"
+msgstr ""
+
 msgid "Quad Gantry Level"
 msgstr "Quad Gantry Level"
 
 msgid "Raise Nozzle"
 msgstr "Düse anheben"
+
+msgid "Recover"
+msgstr ""
 
 msgid "Recover Hard"
 msgstr "Rücksetzen Hard"
@@ -730,9 +745,6 @@ msgstr ""
 msgid "Small"
 msgstr "Klein"
 
-msgid "Sort:"
-msgstr "Sortieren:"
-
 msgid "Speed (mm/s)"
 msgstr "Geschwindigkeit (mm/s)"
 
@@ -774,10 +786,6 @@ msgstr "Temp (°C)"
 
 msgid "Temperature"
 msgstr "Temperatur"
-
-#, python-format
-msgid "To apply %s KlipperScreen needs to be restarted"
-msgstr "Zum Übernehmen von %s benötigt Klipperscreen einen Neustart"
 
 msgid "Total:"
 msgstr "Gesamt:"
@@ -856,3 +864,6 @@ msgstr "mm/s"
 
 msgid "mm/s²"
 msgstr "mm/s²"
+
+msgid "mm³/s"
+msgstr ""
