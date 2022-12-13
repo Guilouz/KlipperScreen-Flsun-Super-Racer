@@ -6,17 +6,26 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:17-0300\n"
+"POT-Creation-Date: 2022-09-08 02:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "Rename/Move:"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
 
 msgid "Min"
 msgstr ""
@@ -112,6 +121,21 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
+msgstr ""
+
+msgid "LED"
+msgstr ""
+
+msgid "Hotend LED On"
+msgstr ""
+
+msgid "Hotend LED Off"
+msgstr ""
+
+msgid "Logo LED On"
+msgstr ""
+
+msgid "Logo LED Off"
 msgstr ""
 
 #, python-format
@@ -542,8 +566,7 @@ msgstr ""
 msgid "New"
 msgstr ""
 
-msgid "Not supported for auto-detection, it needs to be configured in klipperscreen."
-"conf"
+msgid "Not supported for auto-detection, it needs to be configured in klipperscreen.conf"
 msgstr ""
 
 msgid "Nothing selected"
@@ -594,19 +617,19 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
-msgid "Printer"
-msgstr ""
-
 msgid "Print Control"
-msgstr ""
-
-msgid "Printer Select"
 msgstr ""
 
 msgid "Print Time"
 msgstr ""
 
+msgid "Printer"
+msgstr ""
+
 msgid "Printer Connections"
+msgstr ""
+
+msgid "Printer Select"
 msgstr ""
 
 msgid "Printing"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-12-03 02:23+0100\n"
+"POT-Creation-Date: 2022-09-08 02:40+0200\n"
+"PO-Revision-Date: 2022-12-12 22:54+0100\n"
 "Last-Translator: alfrix\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -17,6 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
+
+msgid "Rename/Move:"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
 
 msgid "Min"
 msgstr ""
@@ -112,6 +121,21 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
+msgstr ""
+
+msgid "LED"
+msgstr ""
+
+msgid "Hotend LED On"
+msgstr ""
+
+msgid "Hotend LED Off"
+msgstr ""
+
+msgid "Logo LED On"
+msgstr ""
+
+msgid "Logo LED Off"
 msgstr ""
 
 #, python-format
@@ -597,20 +621,20 @@ msgstr "Avance de presión:"
 msgid "Print"
 msgstr "Imprimir"
 
-msgid "Printer"
-msgstr "Impresora"
-
 msgid "Print Control"
 msgstr "Control de impresión"
-
-msgid "Printer Select"
-msgstr "Seleccionar Impresora"
 
 msgid "Print Time"
 msgstr "Tiempo de impresión"
 
+msgid "Printer"
+msgstr "Impresora"
+
 msgid "Printer Connections"
 msgstr "Conexiones a impresoras"
+
+msgid "Printer Select"
+msgstr "Seleccionar Impresora"
 
 msgid "Printing"
 msgstr "Imprimiendo"

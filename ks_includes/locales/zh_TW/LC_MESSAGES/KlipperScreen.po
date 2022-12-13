@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:17-0300\n"
-"PO-Revision-Date: 2022-12-03 02:33+0100\n"
+"POT-Creation-Date: 2022-09-08 02:40+0200\n"
+"PO-Revision-Date: 2022-12-12 22:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_TW\n"
@@ -17,6 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.2.2\n"
+
+msgid "Rename/Move:"
+msgstr ""
+
+msgid "Camera"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
 
 msgid "Min"
 msgstr ""
@@ -112,6 +121,21 @@ msgid "Please remove leveling switch before move Z0."
 msgstr ""
 
 msgid "Move Z0"
+msgstr ""
+
+msgid "LED"
+msgstr ""
+
+msgid "Hotend LED On"
+msgstr ""
+
+msgid "Hotend LED Off"
+msgstr ""
+
+msgid "Logo LED On"
+msgstr ""
+
+msgid "Logo LED Off"
 msgstr ""
 
 #, python-format
@@ -594,20 +618,20 @@ msgstr ""
 msgid "Print"
 msgstr "列印"
 
-msgid "Printer"
-msgstr ""
-
 msgid "Print Control"
 msgstr "列印控制"
-
-msgid "Printer Select"
-msgstr ""
 
 msgid "Print Time"
 msgstr "列印時間"
 
+msgid "Printer"
+msgstr ""
+
 msgid "Printer Connections"
 msgstr "連接列印機"
+
+msgid "Printer Select"
+msgstr ""
 
 msgid "Printing"
 msgstr "列印中"
