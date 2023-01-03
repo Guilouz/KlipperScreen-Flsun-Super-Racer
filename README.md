@@ -100,7 +100,6 @@ My Macros for Super Racer can be found here : [macros.cfg](https://github.com/Gu
   - `Endstops Calibrate` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
   - `Calibrate` function use `[gcode_macro DELTA_CALIBRATION]`
   - `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
-  - `Move Z0` function in `Z Calibrate` menu use `[gcode_macro MOVE_TO_Z0]`
 
 <br />
 
@@ -133,47 +132,6 @@ endstop_align_zero: false
 endstop_align_zero: false
 ```
 
-<br />
-
-- This version of KlipperScreen save Z-Offset in real time. This is needed:
-
-- Add this in your `printer.cfg` file:
-```
-[save_variables]
-filename: ~/printer_data/config/variables.cfg
-```
-- And must be used with this Macros:
-```
-[gcode_macro SET_GCODE_OFFSET]
-description: Save Z-Offset value
-rename_existing: _SET_GCODE_OFFSET
-gcode:
-  {% if printer.save_variables.variables.gcode_offsets %}
-  {% set offsets = printer.save_variables.variables.gcode_offsets %}
-  {% else %}
-  {% set offsets = {'x': None,'y': None,'z': None} %}
-  {% endif %}
-  {% set ns = namespace(offsets={'x': offsets.x,'y': offsets.y,'z': offsets.z}) %}
-  _SET_GCODE_OFFSET {% for p in params %}{'%s=%s '% (p, params[p])}{% endfor %}
-  {%if 'X' in params %}{% set null = ns.offsets.update({'x': params.X}) %}{% endif %}
-  {%if 'Y' in params %}{% set null = ns.offsets.update({'y': params.Y}) %}{% endif %}
-  {%if 'Z' in params %}{% set null = ns.offsets.update({'z': params.Z}) %}{% endif %}
-  {%if 'Z_ADJUST' in params %}
-  {%if ns.offsets.z == None %}{% set null = ns.offsets.update({'z': 0}) %}{% endif %}
-  {% set null = ns.offsets.update({'z': (ns.offsets.z | float) + (params.Z_ADJUST | float)}) %}
-  {% endif %}
-  SAVE_VARIABLE VARIABLE=gcode_offsets VALUE="{ns.offsets}"
-```
-```
-[delayed_gcode LOAD_GCODE_OFFSETS]
-initial_duration: 2
-gcode:
-  {% if printer.save_variables.variables.gcode_offsets %}
-  {% set offsets = printer.save_variables.variables.gcode_offsets %}
-  _SET_GCODE_OFFSET {% for axis, offset in offsets.items() if offsets[axis] %}{ "%s=%s " % (axis, offset) }{% endfor %}
-  { action_respond_info("Loaded gcode offsets from saved variables [%s]" % (offsets)) }
-  {% endif %}
-```
 <br />
 
 ## Changelog
