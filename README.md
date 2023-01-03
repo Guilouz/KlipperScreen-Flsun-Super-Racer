@@ -93,7 +93,7 @@ install_script: scripts/KlipperScreen-install.sh
 
 ## Notes
 
-My Macros for Super Racer can be found here : [macros.cfg](https://github.com/Guilouz/Klipper-Flsun-Super-Racer/blob/main/Configurations/macros.cfg)
+My Macros for Super Racer can be found here : [macros.cfg](https://github.com/Guilouz/Klipper-Flsun-Super-Racer-Manta-M4P/blob/main/Configurations/macros.cfg)
 
 - Calibrations Menu use the following Macros:
 
