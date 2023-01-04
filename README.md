@@ -97,6 +97,7 @@ My Macros for Super Racer can be found here : [macros.cfg](https://github.com/Gu
 
 - Calibrations Menu use the following Macros:
 
+  - `Z Calibrate` function use `[gcode_macro Z_OFFSET_CALIBRATION]`
   - `Endstops Calibrate` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
   - `Calibrate` function use `[gcode_macro DELTA_CALIBRATION]`
   - `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
