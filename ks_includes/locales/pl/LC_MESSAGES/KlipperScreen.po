@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: KlipperScreen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-08 02:40+0200\n"
-"PO-Revision-Date: 2022-12-12 22:57+0100\n"
+"PO-Revision-Date: 2023-01-04 18:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -29,9 +29,6 @@ msgid "Fullscreen"
 msgstr ""
 
 msgid "Min"
-msgstr ""
-
-msgid "Home is required before resetting Z-Offset!"
 msgstr ""
 
 msgid "Please wait..."
@@ -118,7 +115,12 @@ msgstr ""
 msgid "Please plug in leveling switch before auto-leveling."
 msgstr ""
 
-msgid "Please remove leveling switch before move Z0."
+msgid ""
+"Please plug in leveling switch before mesuring Z-Offset.\n"
+"Once the hotend is up, it can be removed to perform the measurement."
+msgstr ""
+
+msgid "Do you want to start Endstops calibration?"
 msgstr ""
 
 msgid "Move Z0"

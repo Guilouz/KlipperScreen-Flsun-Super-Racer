@@ -114,7 +114,10 @@ msgstr ""
 msgid "Please plug in leveling switch before auto-leveling."
 msgstr ""
 
-msgid "Please remove leveling switch before move Z0."
+msgid "Please plug in leveling switch before mesuring Z-Offset.\nOnce the hotend is up, it can be removed to perform the measurement."
+msgstr ""
+
+msgid "Do you want to start Endstops calibration?"
 msgstr ""
 
 msgid "Move Z0"

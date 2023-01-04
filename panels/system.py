@@ -344,5 +344,5 @@ class SystemPanel(ScreenPanel):
             if method == "reboot":
                 os.system("systemctl reboot")
             else:
-                os.system("shutdown -H now")
+                os.system("systemctl poweroff")
     # End Changes

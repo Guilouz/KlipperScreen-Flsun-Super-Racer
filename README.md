@@ -137,6 +137,7 @@ endstop_align_zero: false
 
 ## Changelog
 
+- 04/01/2023 : Use now official Z Calibrate
 - 13/12/2022 : Latest KlipperScreen commits
 - 06/12/2022 : Latest KlipperScreen commits
 - 04/12/2022 : Latest KlipperScreen commits
