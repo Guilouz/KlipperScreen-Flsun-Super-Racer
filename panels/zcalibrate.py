@@ -20,6 +20,12 @@ class ZCalibratePanel(ScreenPanel):
 
     def __init__(self, screen, title):
         super().__init__(screen, title)
+        macros = self._printer.get_gcode_macros() # Changes
+        self.z_offset_calibration = any("Z_OFFSET_CALIBRATION" in macro.upper() for macro in macros) # Changes
+        self.endstops_calibration = any("ENDSTOPS_CALIBRATION" in macro.upper() for macro in macros) # Changes
+        self.delta_calibration = any("DELTA_CALIBRATION" in macro.upper() for macro in macros) # Changes
+        self.security_offset = any("SECURITY_OFFSET" in macro.upper() for macro in macros) # Changes
+
         self.z_offset = None
         self.probe = self._printer.get_probe()
         if self.probe:
@@ -48,26 +54,24 @@ class ZCalibratePanel(ScreenPanel):
         self.buttons['complete'].connect("clicked", self.accept)
         self.buttons['cancel'].connect("clicked", self.abort)
 
+        # Start Changes
         functions = []
         pobox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-        if self._printer.config_section_exists("stepper_z") \
-                and not self._printer.get_config_section("stepper_z")['endstop_pin'].startswith("probe"):
-            self._add_button("Endstop", "endstop", pobox)
-            functions.append("endstop")
         if self.probe:
-            self._add_button("Probe", "probe", pobox)
+            self._add_button(_("Z Offset Calibration"), "probe", pobox)
             functions.append("probe")
-        if self._printer.config_section_exists("bed_mesh") and "probe" not in functions:
-            # This is used to do a manual bed mesh if there is no probe
-            self._add_button("Bed mesh", "mesh", pobox)
-            functions.append("mesh")
+        self._add_button(_("EndStops Calibration"), "endstop", pobox)
+        functions.append("endstop")
         if "delta" in self._printer.get_config_section("printer")['kinematics']:
             if "probe" in functions:
-                self._add_button("Delta Automatic", "delta", pobox)
+                self._add_button(_("Automatic Delta Calibration"), "delta", pobox)
                 functions.append("delta")
             # Since probes may not be accturate enough for deltas, always show the manual method
-            self._add_button("Delta Manual", "delta_manual", pobox)
-            functions.append("delta_manual")
+            #self._add_button(_("Manual Delta Calibration"), "delta_manual", pobox) # Changes
+            #functions.append("delta_manual") # Changes
+        self._add_button(_("Apply a safety Offset"), "gcode_offset", pobox)
+        functions.append("gcode_offset")
+        # End Changes
 
         logging.info(f"Available functions for calibration: {functions}")
 
@@ -75,7 +79,10 @@ class ZCalibratePanel(ScreenPanel):
         self.labels['popover'].add(pobox)
         self.labels['popover'].set_position(Gtk.PositionType.BOTTOM)
         
-        self.buttons['start'].connect("clicked", self.start_calibration, functions[0]) # Changes
+        if len(functions) > 1:
+            self.buttons['start'].connect("clicked", self.on_popover_clicked)
+        else:
+            self.buttons['start'].connect("clicked", self.start_calibration, functions[0])
 
         distgrid = Gtk.Grid()
         for j, i in enumerate(self.distances):
@@ -121,7 +128,7 @@ class ZCalibratePanel(ScreenPanel):
     def _add_button(self, label, method, pobox):
         popover_button = self._gtk.Button(label=label)
         popover_button.connect("clicked", self.start_calibration, method)
-        pobox.pack_start(popover_button, True, True, 5)
+        pobox.pack_start(popover_button, True, True, 15) # Changes
 
     def on_popover_clicked(self, widget):
         self.labels['popover'].set_relative_to(widget)
@@ -130,18 +137,36 @@ class ZCalibratePanel(ScreenPanel):
     def start_calibration(self, widget, method):
         self.labels['popover'].popdown()
         # Changes
-
+        
+        # Start Changes
         if method == "probe":
-            script = {"script": "Z_OFFSET_CALIBRATION"} # Changes
-            self._screen._confirm_send_action(None, _("Please plug in leveling switch before mesuring Z-Offset.\nOnce the hotend is up, it can be removed to perform the measurement."), "printer.gcode.script", script) # Changes
-        elif method == "mesh":
-            self._screen._ws.klippy.gcode_script("BED_MESH_CALIBRATE")
-        elif method == "delta":
-            self._screen._ws.klippy.gcode_script("DELTA_CALIBRATE")
-        elif method == "delta_manual":
-            self._screen._ws.klippy.gcode_script("DELTA_CALIBRATE METHOD=manual")
+            if not self.z_offset_calibration:
+                self._screen.show_popup_message("Macro Z_OFFSET_CALIBRATION " + _("not found!"))
+            else:
+                script = {"script": "Z_OFFSET_CALIBRATION"}
+                self._screen._confirm_send_action(None, _("Please plug in leveling switch before mesuring Z-Offset.\nOnce the hotend is up, it can be removed to perform the measurement."), "printer.gcode.script", script)
         elif method == "endstop":
-            self._screen._ws.klippy.gcode_script(KlippyGcodes.Z_ENDSTOP_CALIBRATE)
+            if not self.endstops_calibration:
+                self._screen.show_popup_message("Macro ENDSTOPS_CALIBRATION " + _("not found!"))
+            else:
+                script = {"script": "ENDSTOPS_CALIBRATION"}
+                self._screen._confirm_send_action(None, _("Do you want to start Endstops calibration?"), "printer.gcode.script", script)
+        elif method == "delta":
+            if not self.delta_calibration:
+                self._screen.show_popup_message("Macro DELTA_CALIBRATION " + _("not found!"))
+            else:
+                script = {"script": "DELTA_CALIBRATION"}
+                self._screen._confirm_send_action(None, _("Please plug in leveling switch before Delta Calibration."), "printer.gcode.script", script)
+        #elif method == "delta_manual":
+            #script = {"script": "G28\nM400\nDELTA_CALIBRATE METHOD=manual"}
+            #self._screen._confirm_send_action(None, _("Do you want to start Manual Delta calibration with 'paper test'?\n\nIt involves placing a piece of 'copy machine paper' between bed and nozzle, and then moving the nozzle to different Z heights until one feels a small amount of friction when pushing the paper back and forth.\n\nIt's not needed to plug in leveling switch for this calibration."), "printer.gcode.script", script)
+        elif method == "gcode_offset":
+            if not self.security_offset:
+                self._screen.show_popup_message("Macro SECURITY_OFFSET " + _("not found!"))
+            else:
+                script = {"script": "SECURITY_OFFSET"}
+                self._screen._confirm_send_action(None, _("Do you want to apply a 2mm safety offset?\n\nThis could prevent the nozzle from scraping or sinking on the bed in the event of an incorrect adjustment of Z Offset.\n\nThen start a print and adjust the first layer using babysteps via the 'Fine Tuning' button."), "printer.gcode.script", script)
+        # End Changes
 
     def _move_to_position(self):
         x_position = y_position = None
@@ -240,7 +265,6 @@ class ZCalibratePanel(ScreenPanel):
                 logging.info(data)
             elif "save_config" in data:
                 self.buttons_not_calibrating()
-                self._screen.show_popup_message(_("Calibrated, save configuration to make it permanent"), level=1)
             elif "out of range" in data:
                 self._screen.show_popup_message(data)
                 self.buttons_not_calibrating()
@@ -265,18 +289,18 @@ class ZCalibratePanel(ScreenPanel):
         self.distance = distance
 
     def move(self, widget, direction):
-        self._screen._ws.klippy.gcode_script(f"TESTZ Z={direction}{self.distance}") # Changes
+        self._screen._ws.klippy.gcode_script(KlippyGcodes.testz_move(f"{direction}{self.distance}"))
 
     def abort(self, widget):
         logging.info("Aborting calibration")
-        self._screen._ws.klippy.gcode_script("ABORT") # Changes
+        self._screen._ws.klippy.gcode_script(KlippyGcodes.ABORT)
         self.buttons_not_calibrating()
-        self._screen._menu_go_back()
+        #self._screen._menu_go_back() # Changes
         self._screen._ws.klippy.gcode_script("G28") # Changes
 
     def accept(self, widget):
         logging.info("Accepting Z position")
-        self._screen._ws.klippy.gcode_script("ACCEPT") # Changes
+        self._screen._ws.klippy.gcode_script(KlippyGcodes.ACCEPT)
         self._screen._ws.klippy.gcode_script("G28") # Changes
 
     def buttons_calibrating(self):
@@ -307,4 +331,4 @@ class ZCalibratePanel(ScreenPanel):
 
     def activate(self):
         # This is only here because klipper doesn't provide a method to detect if it's calibrating
-        self._screen._ws.klippy.gcode_script("TESTZ Z=+0.001") # Changes
+        self._screen._ws.klippy.gcode_script(KlippyGcodes.testz_move("+0.001"))

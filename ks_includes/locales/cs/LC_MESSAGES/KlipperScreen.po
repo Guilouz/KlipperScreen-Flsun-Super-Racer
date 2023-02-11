@@ -5,17 +5,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KlipperScreen\n"
+"Project-Id-Version: Czech\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-08 02:40+0200\n"
-"PO-Revision-Date: 2023-01-22 17:18+0100\n"
+"PO-Revision-Date: 2023-02-01 00:03+0100\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
+"Language-Team: Jan Stanka (stanky@email.cz)\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 
 msgid "Z Offset Calibration"
@@ -177,730 +177,736 @@ msgstr ""
 
 #, python-format
 msgid "%s will be updated to version"
-msgstr "%s 將更新到版本"
+msgstr "%s bude aktualizováno na verzi"
 
 msgid "(default)"
-msgstr "(預設)"
+msgstr ""
 
 msgid "24 Hour Time"
-msgstr "24 小時制"
+msgstr "24 hod formát"
 
 msgid "A FIRMWARE_RESTART may fix the issue."
-msgstr ""
+msgstr "FW restart může fixnout chyby."
 
 msgid "ADXL Not Configured"
-msgstr ""
+msgstr "ADXL není nastaven"
 
 msgid "Abort"
-msgstr "中止"
+msgstr "Zrušit"
 
 msgid "Acceleration:"
-msgstr ""
+msgstr "Zrychlení:"
 
 msgid "Accept"
-msgstr "接受"
+msgstr "Přijmout"
 
 msgid "Actions"
-msgstr "動作"
+msgstr "Akce"
 
 msgid "Add profile"
-msgstr ""
+msgstr "Přidat profil"
 
 msgid "Apply"
-msgstr ""
+msgstr "Použít"
 
 #, python-format
 msgid "Apply %.2f offset to Endstop?"
-msgstr ""
+msgstr "Použít %.2f přesah k Endstop?"
 
 #, python-format
 msgid "Apply %s%.2f offset to Probe?"
-msgstr ""
+msgstr "Použít %s%.2f přesah k Sondě?"
 
 msgid "Are you sure do you want to exclude the object?"
-msgstr ""
+msgstr "Opravdu chceš vyjmout objekt?"
 
 msgid "Are you sure you want to run Emergency Stop?"
-msgstr "您確定要運行緊急停止嗎？"
+msgstr "Opravdu okamžitě zastavit?"
 
 msgid "Are you sure you wish to cancel this print?"
-msgstr "您確定要取消列印嗎?"
+msgstr "Opravdu chcete zrušit tisk?"
 
 msgid "Are you sure you wish to disable motors?"
-msgstr "您確定要禁用電機嗎？"
+msgstr "Opravdu chcete uvolnit motory?"
 
 msgid "Are you sure you wish to reboot the system?"
-msgstr "您確定要重新啟動系統嗎?"
+msgstr "Opravdu chcete rebootovat systém?"
 
 msgid "Are you sure you wish to shutdown the system?"
-msgstr "您確定要關閉系統嗎?"
+msgstr "Opravdu chcete vypnout systém?"
 
 msgid "Auto"
-msgstr "汽車"
+msgstr "Auto"
 
 msgid "Auto-calibrate"
-msgstr ""
+msgstr "Auto-kalibrace"
 
 msgid "Auto-close notifications"
-msgstr ""
+msgstr "Automaticky zavřít upozornění"
 
 msgid "Auto-scroll"
-msgstr "自動滾屏"
+msgstr "Auto posun"
 
 msgid "Bed Level"
-msgstr "熱床調平"
+msgstr "Vyrovnání podložky"
 
 msgid "Bed Mesh"
-msgstr "網格床"
+msgstr "Mapa podložky"
 
 msgid "Bed screw configuration:"
-msgstr ""
+msgstr "Vyrovnání šroubů podložky:"
 
 msgid "Calibrate"
-msgstr "校正"
+msgstr "Kalibrace"
 
 msgid "Calibrated"
-msgstr ""
+msgstr "Zkalibrováno"
 
 msgid "Calibrated, save configuration to make it permanent"
-msgstr "校準，保存配置以使其永久化"
+msgstr "Zkalibrováno, uložit změny jako trvalé"
 
 msgid "Calibrating"
-msgstr "校正"
+msgstr "Kalibruji"
 
 msgid "Can't set above the maximum:"
-msgstr "不能設置超過最大值："
+msgstr "Nemohu nastavit víc než max:"
 
 msgid "Cancel"
-msgstr "取消"
+msgstr "Zrušit"
 
 msgid "Cancel Print"
-msgstr "取消列印"
+msgstr "Zrušit tisk"
 
 msgid "Cancelled"
-msgstr "已取消"
+msgstr "Zrušeno"
 
 msgid "Cancelling"
-msgstr "取消"
+msgstr "Ruším"
 
 msgid "Cannot connect to Moonraker"
-msgstr "無法連接到 Moonraker"
+msgstr "Nelze se připojit k Moonraker"
 
 msgid "Channel"
-msgstr "通道"
+msgstr "Kanál"
 
 msgid "Check ADXL Wiring"
-msgstr ""
+msgstr "Zkontroluj zapojení ADXL"
 
 msgid "Checking for updates, please wait..."
-msgstr ""
+msgstr "Kontrola aktualizací, čekej ..."
 
 msgid "Clear"
-msgstr ""
+msgstr "Vymaž"
 
 msgid "Close"
-msgstr "關閉"
+msgstr "Zavřít"
 
 msgid "Complete"
-msgstr "完成"
+msgstr "Hotovo"
 
 msgid "Configuration"
-msgstr "配置"
+msgstr "Konfigurace"
 
 msgid "Confirm Emergency Stop"
-msgstr "確認緊急停止"
+msgstr "Potvrzovat Emergency Stop"
 
 msgid "Connected"
-msgstr "連接"
+msgstr "Připojeno"
 
 #, python-format
 msgid "Connecting to %s"
-msgstr "連接到 %s"
+msgstr "Připojování k %s"
 
 msgid "Console"
-msgstr "控制台"
+msgstr "Konsole"
 
 msgid "Continue"
-msgstr "繼續"
+msgstr "Pokračuj"
 
 msgid "Cooldown"
-msgstr "冷卻"
+msgstr "Zchladit"
 
 msgid "Date"
-msgstr "日期"
+msgstr "Datum"
 
 msgid "Decrease"
-msgstr "減少"
+msgstr "Snížit"
 
 msgid "Delete File?"
-msgstr ""
+msgstr "Smazat soubor?"
 
 msgid "Deselect"
-msgstr "取消選擇"
+msgstr "Odznačit"
 
 msgid "Disable Motors"
-msgstr "禁用步進電機"
+msgstr "Uvolnit motory"
 
 msgid "Disable XY"
-msgstr "禁用 XY"
+msgstr "Uvolnit XY"
 
 msgid "Distance (mm)"
-msgstr "距離(mm)"
+msgstr "Vzdálenost (mm)"
 
 #, python-format
 msgid "Do you want to recover %s?"
-msgstr "您想恢復 %s 嗎?"
+msgstr "Obnovit %s?"
 
 msgid "Elapsed:"
-msgstr "已耗時間："
+msgstr "Uplynulo:"
 
 msgid "Error"
-msgstr "錯誤"
+msgstr "Chyba"
 
 msgid "Estimated Time Method"
-msgstr "預估時間方法"
+msgstr "Výpočet doby tisku"
 
 msgid "Exclude Object"
-msgstr ""
+msgstr "Vyloučit objekt"
 
 msgid "Extra Large"
-msgstr ""
+msgstr "Extra velký"
 
 msgid "Extrude"
-msgstr "擠出機"
+msgstr "Extruze"
 
 msgid "Extrusion +"
-msgstr "擠出 +"
+msgstr "Extruze +"
 
 msgid "Extrusion -"
-msgstr "擠出 -"
+msgstr "Extruze -"
 
 msgid "Failed, adjust position first"
-msgstr "失敗，先調整位置"
+msgstr "Chyba, nastav nejprve pozici"
 
 msgid "Fan"
-msgstr "風扇"
+msgstr "Větrák"
 
 msgid "Filament Used"
-msgstr "已消耗的耗材"
+msgstr "Typ filamentu"
 
 msgid "Filament total:"
-msgstr ""
+msgstr "Filament celkem:"
 
 msgid "Filament used:"
-msgstr ""
+msgstr "Použitý filament:"
 
 msgid "Filament:"
-msgstr ""
+msgstr "Filament:"
 
 msgid "File"
-msgstr "檔案"
+msgstr "Soubor"
 
 msgid "File:"
-msgstr ""
+msgstr "Soubor:"
 
 msgid "Finding ADXL"
-msgstr ""
+msgstr "Hledání ADXL"
 
 msgid "Fine Tuning"
-msgstr "微調"
+msgstr "Ladění"
 
 msgid "Finish"
-msgstr "完成"
+msgstr "Konec"
 
 msgid "Firmware Restart"
-msgstr "Firmware 重新啟動"
+msgstr "Firmware Restart"
 
 msgid "Flow:"
-msgstr ""
+msgstr "Tok:"
 
 msgid "Flowrate:"
-msgstr ""
+msgstr "Rychlost toku:"
 
 msgid "Font Size"
-msgstr "字體大小"
+msgstr "Velikost fontu"
 
 msgid "Full Update"
-msgstr "滿的 更新"
+msgstr "Úplný update"
 
 msgid "Go Back"
-msgstr "返回"
+msgstr "Zpět"
 
 msgid "Height:"
-msgstr ""
+msgstr "Výška:"
 
 msgid "Hidden"
-msgstr "隱"
+msgstr "Skrytý"
 
 msgid "Hide"
-msgstr "隱藏"
+msgstr "Skrýt"
 
 msgid "Hide sensors in Temp."
-msgstr "在溫度中隱藏傳感器。"
+msgstr "Skrýt senzory v Temp."
 
 msgid "Hide temp."
-msgstr ""
+msgstr "Skrýt teplotu"
 
 msgid "Home All"
-msgstr "歸零全部"
+msgstr "Zaparkovat XYZ"
 
 msgid "Home X"
-msgstr "歸零 X"
+msgstr "Zaparkovat X"
 
 msgid "Home XY"
-msgstr "歸零 XY"
+msgstr "Zaparkovat XY"
 
 msgid "Home Y"
-msgstr "歸零 Y"
+msgstr "Zaparkovat Y"
 
 msgid "Home Z"
-msgstr "歸零 Z"
+msgstr "Zaparkovat Z"
 
 msgid "Homing"
-msgstr "歸零"
+msgstr "Domů"
 
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 msgid "Hostname"
-msgstr "主機名稱"
+msgstr "Hostname"
 
 msgid "Icon Theme"
-msgstr "圖標主題"
+msgstr "Sada ikon"
 
 msgid "Increase"
-msgstr "增加"
+msgstr "Zvětšit"
 
 msgid "Initializing printer..."
-msgstr "初始化列印機中.."
+msgstr "Startuji tiskárnu ..."
 
 msgid "Input Shaper"
 msgstr ""
 
 msgid "Interface"
-msgstr "介面"
+msgstr "Rozhraní"
 
 msgid "Invalid"
-msgstr "無效的"
+msgstr "Špatně"
 
 msgid "Invalid password"
-msgstr ""
+msgstr "Špatné heslo"
 
 msgid "Invert X"
-msgstr "反轉 X"
+msgstr "Otočit X"
 
 msgid "Invert Y"
-msgstr "反轉 Y"
+msgstr "Otočit Y"
 
 msgid "Invert Z"
-msgstr "反轉 Z"
+msgstr "Otočit Z"
 
 msgid "Klipper Restart"
-msgstr "Klipper 重新啟動"
+msgstr "Klipper Restart"
 
 msgid "Klipper has disconnected"
-msgstr "Klipper 已斷開連結"
+msgstr "Klipper odpojen"
 
 msgid "Klipper has encountered an error."
-msgstr "Klipper遇到一個錯誤。"
+msgstr "Klipper zaznamenal chybu."
 
 msgid "Klipper has shutdown"
-msgstr "Klipper 已經關閉"
+msgstr "Klipper zastaven"
 
 msgid "Klipper is attempting to start"
-msgstr "Klipper 正在嘗試重新啟動"
+msgstr "Klipper startuje"
 
 msgid "Klipper will reboot"
-msgstr "Klipper 將重新啟動"
+msgstr "Klipper se restartuje"
 
 msgid "KlipperScreen will reboot"
-msgstr ""
+msgstr "KlipperScreen se restartuje"
 
 msgid "Language"
-msgstr "語言"
+msgstr "Jazyk"
 
 msgid "Large"
-msgstr "大的"
+msgstr "Velký"
 
 msgid "Layer:"
-msgstr ""
+msgstr "Vrstva:"
 
 msgid "Left:"
-msgstr "剩下時間："
+msgstr "Zbývá:"
 
 msgid "Limits"
-msgstr "限制"
+msgstr "Limity"
 
 msgid "Load"
-msgstr "載入"
+msgstr "Zasuň"
 
 msgid "Lower Nozzle"
-msgstr "降低噴嘴"
+msgstr "Trysku níž"
 
 msgid "Macro shortcut on sidebar"
-msgstr "在側邊欄上顯示巨集快捷鍵"
+msgstr "Macro shortcut on sidebar"
 
 msgid "Macros"
-msgstr "巨集"
+msgstr "Makra"
 
 msgid "Main Menu"
-msgstr "主選單"
+msgstr "Hlavní menu"
 
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 msgid "Max Acceleration"
-msgstr ""
+msgstr "Max. zrychlení"
 
 msgid "Max Acceleration to Deceleration"
-msgstr "最大加速到減速"
+msgstr "Z max. zrychlení do zpomalení"
 
 msgid "Max Velocity"
-msgstr "最大速度"
+msgstr "Max. rychlost"
 
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 msgid "Measure Both"
-msgstr ""
+msgstr "Změřit oboje"
 
 msgid "Measure X"
-msgstr ""
+msgstr "Změřit X"
 
 msgid "Measure Y"
-msgstr ""
+msgstr "Změřit Y"
 
 msgid "Medium"
-msgstr "中"
+msgstr "Střední"
 
 msgid "Menu"
-msgstr "選單"
+msgstr "Menu"
 
 msgid "Mesh calibrate"
-msgstr ""
+msgstr "Kalibrace sítě"
 
 msgid "Modified"
-msgstr "修改"
+msgstr "Změněno"
 
 msgid "Moonraker: connected"
-msgstr "Moonraker：已連接"
+msgstr "Moonraker: připojen"
 
 msgid "Move"
-msgstr "移動"
+msgstr "Posun"
 
 msgid "Move Distance (mm)"
-msgstr "移動距離（mm）"
+msgstr "Vzdálenost posunu (mm)"
 
 msgid "Name"
-msgstr "名稱"
+msgstr "Jméno"
 
 msgid "Network"
-msgstr "網路"
+msgstr "Síť"
 
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 msgid "New"
-msgstr ""
+msgstr "Nový"
 
 msgid ""
 "Not supported for auto-detection, it needs to be configured in klipperscreen."
 "conf"
-msgstr ""
+msgstr "Nepodporováno autodetekcí, nakonfiguruj v klipperscreen.conf"
 
 msgid "Nothing selected"
-msgstr "未選擇任何內容"
+msgstr "Nevybráno nic"
 
 #, python-format
 msgid "Outdated by %d"
-msgstr "已過時 %d"
+msgstr "Zastaralý %d"
 
 msgid "PSK for"
-msgstr "PSK 用於"
+msgstr "PSK pro"
 
 msgid "Package will be updated"
 msgid_plural "Packages will be updated"
-msgstr[0] "包將被更新"
+msgstr[0] "Balíček bude aktualizován"
+msgstr[1] "Balíčky budou aktualizovány"
+msgstr[2] ""
 
 msgid "Part Fan"
-msgstr ""
+msgstr "Částečný ofuk"
 
 msgid "Password saved"
-msgstr "密碼已保存"
+msgstr "Heslo uloženo"
 
 msgid "Pause"
-msgstr "暫停"
+msgstr "Pauza"
 
 msgid "Paused"
-msgstr "已暫停"
+msgstr "Pozastaveno"
 
 msgid "Perform a full upgrade?"
-msgstr "執行全面升級？"
+msgstr "Úplně aktualizovat?"
 
 msgid "Pins"
-msgstr ""
+msgstr "Piny"
 
 msgid "Please recompile and flash the micro-controller."
-msgstr "請重新編譯並刷寫微控制器。"
+msgstr "Znovu přelož a flashni micro-controller."
 
 msgid "Power"
-msgstr "電源"
+msgstr "Zdroj"
 
 msgid "Power On Printer"
-msgstr "啟動列印機"
+msgstr "Zapni tiskárnu"
 
 msgid "Pressure Advance:"
-msgstr ""
+msgstr "Pressure Advance:"
 
 msgid "Print"
-msgstr "列印"
+msgstr "Tisk"
 
 msgid "Print Control"
-msgstr "列印控制"
+msgstr "Nastavení tisku"
 
 msgid "Print Time"
-msgstr "列印時間"
+msgstr "Čas tisku"
 
 msgid "Printer"
-msgstr ""
+msgstr "Tiskárna"
 
 msgid "Printer Connections"
-msgstr "連接列印機"
+msgstr "Připojení"
 
 msgid "Printer Select"
-msgstr ""
+msgstr "Výběr tiskárny"
 
 msgid "Printing"
-msgstr "列印中"
+msgstr "Probíhá tisk"
 
 msgid "Probe Offset"
-msgstr ""
+msgstr "Offset sondy"
 
 msgid "Profile Name:"
-msgstr "配置檔案名稱:"
+msgstr "Jméno profilu:"
 
 msgid "Provide KlipperScreen.log when asking for help.\n"
-msgstr ""
+msgstr "Provide KlipperScreen.log when asking for help.\n"
 
 msgid "Quad Gantry Level"
-msgstr "龍門調平"
+msgstr "Quad Gantry Level"
 
 msgid "Raise Nozzle"
-msgstr "上升噴嘴"
+msgstr "Zvedni trysku"
 
 msgid "Recover"
-msgstr ""
+msgstr "Recover"
 
 msgid "Recover Hard"
-msgstr "恢復 Hard"
+msgstr "Recover Hard"
 
 msgid "Recover Soft"
-msgstr "恢復 Soft"
+msgstr "Recover Soft"
 
 msgid "Reference"
-msgstr "參考"
+msgstr "Reference"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Obnovit"
 
 msgid "Restart"
-msgstr "重新啟動"
+msgstr "Restart"
 
 msgid "Resume"
-msgstr "恢復"
+msgstr "Pokračuj"
 
 msgid "Retract"
-msgstr "回抽"
+msgstr "Retrakce"
 
 msgid "Retraction"
-msgstr ""
+msgstr "Retrakce"
 
 msgid "Retraction Length"
-msgstr ""
+msgstr "Délka retrakce"
 
 msgid "Retraction Speed"
-msgstr ""
+msgstr "Rychlost retrakce"
 
 msgid "Retry"
-msgstr ""
+msgstr "Znovu"
 
 msgid "Retrying"
-msgstr ""
+msgstr "Zkouším znovu"
 
 msgid "Save"
-msgstr "儲存"
+msgstr "Uložit"
 
 msgid "Save Config"
-msgstr "儲存設定"
+msgstr "Ulož nastavení"
 
 msgid "Save Z"
-msgstr ""
+msgstr "Uložit Z"
 
 msgid "Save configuration?"
-msgstr ""
+msgstr "Uložit nastavení?"
 
 msgid "Saved"
-msgstr ""
+msgstr "Uloženo"
 
 #, python-format
 msgid "Saved offset: %s"
-msgstr ""
+msgstr "Uložený offset: %s"
 
 msgid "Screen DPMS"
-msgstr "屏幕DPMS"
+msgstr "Screen DPMS"
 
 msgid "Screen Power Off Time"
-msgstr "螢幕關閉時間"
+msgstr "Čas vypnutí displeje"
 
 msgid "Screws Adjust"
-msgstr "Screws 調整"
+msgstr "Nastavit šrouby"
 
 msgid "Select"
-msgstr "選擇"
+msgstr "Vyber"
 
 msgid "Send"
-msgstr "發送"
+msgstr "Odeslat"
 
 #, python-format
 msgid "Sending Power ON signal to: %s"
-msgstr "正在發送通電信號到：%s"
+msgstr "Odeslat ZAP do %s"
 
 msgid "Set Temp"
-msgstr "設定溫度"
+msgstr "Nastav teplotu"
 
 msgid "Settings"
-msgstr "設定"
+msgstr "Nastavení"
 
 msgid "Show"
-msgstr "展示"
+msgstr "Ukaž"
 
 msgid "Show Heater Power"
-msgstr ""
+msgstr "Ukaž odběr topení"
 
 msgid "Shutdown"
-msgstr ""
+msgstr "Shutdown"
 
 msgid "Size"
-msgstr "大小"
+msgstr "Velikost"
 
 msgid "Slicer"
-msgstr "切片"
+msgstr "Slicer"
 
 msgid "Slicer Time correction (%)"
-msgstr "切片器時間校正 (%)"
+msgstr "Časová korekce Sliceru  (%)"
 
 msgid "Slicer:"
-msgstr ""
+msgstr "Slicer:"
 
 msgid "Small"
-msgstr "小的"
+msgstr "Malý"
 
 msgid "Speed (mm/s)"
-msgstr "速度（mm/s）"
+msgstr "Rychlost (mm/s)"
 
 msgid "Speed +"
-msgstr "速度 +"
+msgstr "Rychlost ₊"
 
 msgid "Speed -"
-msgstr "速度 -"
+msgstr "Rychlost -"
 
 msgid "Speed:"
-msgstr ""
+msgstr "Rychlost:"
 
 msgid "Square Corner Velocity"
-msgstr "方角速度"
+msgstr ""
 
 msgid "Start"
-msgstr "開始"
+msgstr "Start"
 
 msgid "Starting WiFi Association"
-msgstr "啟動 WiFi 關聯"
+msgstr "Připojování k WiFi"
 
 msgid "Starting recovery for"
-msgstr "開始恢復"
+msgstr "Obnovuji"
 
 msgid "Starting update for"
-msgstr "開始更新"
+msgstr "Aktualizuji"
 
 msgid "System"
-msgstr "系統"
+msgstr "Systém"
 
 msgid "System Restart"
-msgstr "系統重新啟動"
+msgstr "Restart systému"
 
 msgid "System Shutdown"
-msgstr "關閉系統"
+msgstr "Vypnutí"
 
 msgid "Temp (°C)"
-msgstr "溫度（°C）"
+msgstr "Teplota (°C)"
 
 msgid "Temperature"
-msgstr "溫度"
+msgstr "Teplota"
 
 msgid "Total:"
-msgstr "全部的："
+msgstr "Total:"
 
 msgid "Unknown Heater"
-msgstr "未知加熱器"
+msgstr "Neznámé topení"
 
 msgid "Unknown screw position"
-msgstr ""
+msgstr "Neznámé nastavení šroubů"
 
 msgid "Unload"
-msgstr "卸載"
+msgstr "Vysuň"
 
 msgid "Unretract Extra Length"
-msgstr ""
+msgstr "Vysuň extra délku"
 
 msgid "Unretract Speed"
-msgstr ""
+msgstr "Vysunovací rychlost"
 
 msgid "Up To Date"
-msgstr "最新"
+msgstr "Aktuální"
 
 msgid "Update"
-msgstr "更新"
+msgstr "Aktualizuj"
 
 msgid "Updating"
-msgstr "更新"
+msgstr "Aktualizuji"
 
 msgid "Uploaded"
-msgstr "上傳時間"
+msgstr "Nahrané"
 
 msgid "XY Move Speed (mm/s)"
-msgstr "XY 移動速度 (mm/s)"
+msgstr "Rychlost pohybu XY  (mm/s)"
 
 msgid "XY Speed (mm/s)"
-msgstr ""
+msgstr "Rychlost XY (mm/s)"
 
 msgid "Z Calibrate"
-msgstr "Z 校準"
+msgstr "Kalibrace Z"
 
 msgid "Z Move Speed (mm/s)"
-msgstr "Z 移動速度 (mm/s)"
+msgstr "Rychlost pohybu Z (mm/s)"
 
 msgid "Z Speed (mm/s)"
-msgstr ""
+msgstr "Rychlost pohybu Z  (mm/s)"
 
 msgid "Z Tilt"
-msgstr "Z 傾斜"
+msgstr "Z Tilt"
 
 msgid "Z offset:"
-msgstr ""
+msgstr "Z offset:"
 
 msgid "commit"
 msgid_plural "commits"
-msgstr[0] "改變"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 msgid "dBm"
 msgstr "dBm"
 
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] "小時"
+msgstr[0] "hodina"
+msgstr[1] "hodiny"
+msgstr[2] "hodin"
 
 msgid "minutes"
-msgstr "分鐘"
+msgstr "min"
 
 msgid "mm"
 msgstr "mm"
@@ -912,4 +918,4 @@ msgid "mm/s²"
 msgstr "mm/s²"
 
 msgid "mm³/s"
-msgstr ""
+msgstr "mm³/s"
