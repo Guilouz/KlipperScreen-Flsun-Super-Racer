@@ -1,0 +1,246 @@
+/* Material-dark theme created by Alfredo Monclus 2021 */
+
+* {
+    color: #e2e2e2;
+}
+
+window {
+    background-color: #121212;
+    background-image: url("./styles/deubstyle/background.svg");
+    background-size: cover;
+}
+
+button {
+    background-color: rgba(0,0,0,0);
+}
+
+button:active {
+    background-color: #da3e48;
+}
+
+.button_active {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1em;
+}
+
+button:disabled {
+    background-color: rgba(0,0,0,0);
+}
+
+button.color1:disabled,
+button.color2:disabled,
+button.color3:disabled,
+button.color4:disabled {
+    border-bottom-color: grey;
+}
+
+button.color1 {
+    background-color: rgba(0,0,0,0.5);
+    border-color: #da3e48;
+    border-radius: 1em;
+}
+
+button.color2 {
+    background-color: rgba(0,0,0,0.5);
+    border-color: #da3e48;
+    border-radius: 1em;
+}
+
+button.color3 {
+    background-color: rgba(0,0,0,0.5);
+    border-color: #da3e48;
+    border-radius: 1em;
+}
+
+button.color4 {
+    background-color: rgba(0,0,0,0.5);
+    border-color: #da3e48;
+    border-radius: 1em;
+}
+
+button.color1:active, button.color2:active, button.color3:active, button.color4:active, button.update:active, button.invalid:active, .dialog button:active, .dialog button:nth-child(1):active, .dialog button:nth-child(2):active {
+    border-color: rgba(0,0,0,0);
+}
+
+button.active {
+    background-color: #da3e48;
+}
+
+button.update {
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+    border-bottom: .3em solid;
+    border-bottom-color: #849900;
+    border-radius: .75em;
+}
+
+button.invalid {
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+    border-bottom: .3em solid;
+    border-bottom-color: #B71C1C;
+    border-radius: .75em;
+}
+
+combobox box button {
+    border-color: #cccccc;
+}
+
+switch {
+    background-color: #404E57;
+    border-color: #121212;
+}
+
+switch:checked {
+    background-color: #da3e48;
+}
+
+switch slider {
+    border: 0;
+}
+
+entry {
+    background-color: #1f1f1f;
+    border-color: rgba(0,0,0,0);
+}
+
+label {
+    color: #e2e2e2;
+}
+
+menu {
+    background-color: #13181C;
+    border-color: #cccccc;
+}
+
+menuitem {
+    background-color: #13181C;
+    border-color: #cccccc;
+}
+
+trough {
+    background-color: #404E57;
+    color: #e2e2e2;
+}
+
+trough highlight, trough progress {
+    background-color: #da3e48;
+    color: #e2e2e2;
+    border-color: #121212;
+}
+
+scale-mark {
+    color: #e2e2e2;
+}
+
+scrollbar, scrollbar button, scrollbar trough {
+    background-color: rgba(0,0,0,0);
+}
+
+scrollbar slider {
+    background-color: #404E57;
+}
+
+textview .time {
+    color: #9E9E9E;
+}
+
+.popup {
+    background-color: #006064;
+}
+
+.dialog {
+    border: #121212;
+    background-color: #121212;
+}
+
+.dialog button {
+    background-color: rgba(0,0,0,0.5);
+    border-bottom-color: #1f1f1f;
+    border-radius: .75em;
+}
+
+.dialog button:nth-child(1) {
+    border-bottom-color: #849900;
+}
+
+.dialog button:nth-child(2) {
+    border-bottom-color: #B71C1C;
+}
+
+.tempbutton_top, .tempbutton, .tempbutton_bottom, .distbutton_top, .distbutton, .distbutton_bottom  {
+    border-color: #121212;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.distbutton_active {
+    background-color: #da3e48;
+}
+
+.fan_slider {
+    color: #e2e2e2;
+}
+
+.message_popup {
+    border-bottom-color: #e2e2e2;
+}
+
+.message_popup_echo, .message_popup_echo button {
+    background-color: #006412;
+}
+
+.message_popup_warning, .message_popup_warning button {
+    background-color: #EF6C00;
+}
+
+.message_popup_error, .message_popup_error button {
+    background-color: #B71C1C;
+}
+
+.numpad_tleft, .numpad_top, .numpad_tright, .numpad_left, .numpad_button, .numpad_right, .numpad_bleft, .numpad_bottom, .numpad_bright {
+    border-color: #121212;
+    background-color: rgba(0,0,0,0.5);
+}
+
+popover {
+    background-color: grey;
+}
+
+popover button {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.printing-status {
+    color: #e2e2e2;
+}
+
+.printing-progress-text {
+    color: #e2e2e2;
+}
+
+.printing-status-label {
+    color: #9E9E9E;
+}
+
+.message {
+    border-color: #B71C1C;
+    color: #e2e2e2;
+    background-color: #B71C1C;
+}
+
+.message button {
+    background-color: #e2e2e2;
+    color: #121212;
+}
+
+.warning {
+    background-color: #EF6C00;
+}
+
+.error {
+    background-color: #B71C1C;
+}
+
+.keyboard_pad {
+    background-color: #090909;
+}
