@@ -6,7 +6,7 @@
    version="1.1"
    id="svg10"
    sodipodi:docname="arrow-down.svg"
-   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,107 +27,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs14">
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Colorize"
-       id="filter652"
-       x="-0.040529037"
-       y="-0.036076815"
-       width="1.0810581"
-       height="1.0721521">
-      <feComposite
-         in2="SourceGraphic"
-         operator="arithmetic"
-         k1="9.03427"
-         k2="1"
-         result="composite1"
-         id="feComposite638" />
-      <feColorMatrix
-         in="composite1"
-         values="1"
-         type="saturate"
-         result="colormatrix1"
-         id="feColorMatrix640" />
-      <feFlood
-         flood-opacity="1"
-         flood-color="rgb(156,0,0)"
-         result="flood1"
-         id="feFlood642" />
-      <feBlend
-         in="flood1"
-         in2="colormatrix1"
-         mode="multiply"
-         result="blend1"
-         id="feBlend644" />
-      <feBlend
-         in2="blend1"
-         mode="screen"
-         result="blend2"
-         id="feBlend646" />
-      <feColorMatrix
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2"
-         id="feColorMatrix648" />
-      <feComposite
-         in="colormatrix2"
-         in2="SourceGraphic"
-         operator="in"
-         k2="1"
-         result="fbSourceGraphic"
-         id="feComposite650" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix954" />
-      <feComposite
-         in2="fbSourceGraphic"
-         id="feComposite956"
-         operator="arithmetic"
-         k1="9.03427"
-         k2="1"
-         result="composite1"
-         in="fbSourceGraphic" />
-      <feColorMatrix
-         id="feColorMatrix958"
-         in="composite1"
-         values="1"
-         type="saturate"
-         result="colormatrix1" />
-      <feFlood
-         id="feFlood960"
-         flood-opacity="1"
-         flood-color="rgb(204,0,0)"
-         result="flood1" />
-      <feBlend
-         in2="colormatrix1"
-         id="feBlend962"
-         in="flood1"
-         mode="multiply"
-         result="blend1" />
-      <feBlend
-         in2="blend1"
-         id="feBlend964"
-         mode="screen"
-         result="blend2" />
-      <feColorMatrix
-         id="feColorMatrix966"
-         in="blend2"
-         values="1"
-         type="saturate"
-         result="colormatrix2" />
-      <feComposite
-         in2="fbSourceGraphic"
-         id="feComposite968"
-         in="colormatrix2"
-         operator="in"
-         k2="1"
-         result="composite2" />
-    </filter>
-  </defs>
+     id="defs14" />
   <sodipodi:namedview
      pagecolor="#bfbfbf"
      bordercolor="#666666"
@@ -137,23 +37,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1463"
-     inkscape:window-height="1205"
+     inkscape:window-width="1600"
+     inkscape:window-height="826"
      id="namedview12"
      showgrid="false"
      inkscape:pagecheckerboard="false"
      inkscape:zoom="5.4137931"
-     inkscape:cx="-16.347134"
+     inkscape:cx="22.719745"
      inkscape:cy="36.850318"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg10"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:document-rotation="0"
-     inkscape:showpageshadow="2"
-     inkscape:deskcolor="#bfbfbf" />
+     inkscape:document-rotation="0" />
   <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
   <title
      id="title2">folder</title>
@@ -166,5 +64,5 @@
      stroke-width="2.4221"
      stroke-linejoin="round"
      d="m 43.067162,26.875091 -5.780261,5.828236 0.0013,-21.492271 H 26.820715 V 32.876725 L 20.858931,26.990257 13.495518,34.415307 32.097894,52.789006 50.504482,34.2225 Z"
-     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter652)" />
+     style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
 </svg>
