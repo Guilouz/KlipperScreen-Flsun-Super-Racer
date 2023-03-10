@@ -95,11 +95,12 @@ install_script: scripts/KlipperScreen-install.sh
 
 My Macros for Super Racer can be found here : [macros.cfg](https://github.com/Guilouz/Klipper-Flsun-Super-Racer-Manta-M4P/blob/main/Configurations/macros.cfg)
 
-- Calibrations Menu use the following Macros:
+- Multiple Calibrations Menu use the following Macros:
 
-  - `Z Calibrate` function use `[gcode_macro Z_OFFSET_CALIBRATION]`
-  - `Endstops Calibrate` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
-  - `Calibrate` function use `[gcode_macro DELTA_CALIBRATION]`
+  - `Z Offset Calibration` function use `[gcode_macro Z_OFFSET_CALIBRATION]`
+  - `EndStops Calibration` function use `[gcode_macro ENDSTOPS_CALIBRATION]`
+  - `Automatic Delta Calibration` function use `[gcode_macro DELTA_CALIBRATION]`
+  - `Apply a safety Offset` function use `[gcode_macro SECURITY_OFFSET]`
   - `Bed Mesh` function use `[gcode_macro BED_LEVELING]`
 
 <br />
