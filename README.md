@@ -186,6 +186,7 @@ gcode:
 
 ## Changelog
 
+- 10/03/2023 : Latest KlipperScreen commits
 - 11/02/2023 : Improved menu and Z Calibrate Panel / Latest KlipperScreen commits
 - 04/01/2023 : Use now official Z Calibrate
 - 13/12/2022 : Latest KlipperScreen commits
