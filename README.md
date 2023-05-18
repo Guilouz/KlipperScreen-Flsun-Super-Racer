@@ -186,6 +186,7 @@ gcode:
 
 ## Changelog
 
+- 18/05/2023 : Latest KlipperScreen commits / Added support for BigTreeTech Pad7 (theme and touch sound)
 - 10/03/2023 : Latest KlipperScreen commits
 - 11/02/2023 : Improved menu and Z Calibrate Panel / Latest KlipperScreen commits
 - 04/01/2023 : Use now official Z Calibrate
