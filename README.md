@@ -188,6 +188,13 @@ gcode:
 
 ## Changelog
 
+- 27/06/2023 :
+  - Menus reorganization.
+  - Added PID calibrate to the keypad with possibility to select temperature.
+  - Removed PID calibrations from Calibrations menu.
+  - Fixed selected device in job status menu.
+  - Use klipper config values for speed and heights on bed level menu.
+  - Updated translations.
 - 22/05/2023 : Latest KlipperScreen commits / Added new PID section in Calibrations menu
 - 18/05/2023 : Latest KlipperScreen commits / Added support for BigTreeTech Pad7 (theme and touch sound)
 - 10/03/2023 : Latest KlipperScreen commits
