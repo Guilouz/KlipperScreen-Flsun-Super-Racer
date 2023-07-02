@@ -188,6 +188,12 @@ gcode:
 
 ## Changelog
 
+- 02/07/2023 :
+  - Added new settings to add arrows for vertical scrollbars.
+  - Bed Mesh: Load default if no mesh have been loaded.
+  - Calibrate: Use the new method manual_probe is_active to improve detection of status.
+  - Fixes on Main Menu.
+
 - 27/06/2023 :
   - Menus reorganization.
   - Added PID calibrate to the keypad with possibility to select temperature.
