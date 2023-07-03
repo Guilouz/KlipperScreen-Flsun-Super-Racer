@@ -188,6 +188,11 @@ gcode:
 
 ## Changelog
 
+- 03/07/2023 :
+- Fixed multiple zcalibrate opening.
+- Fixed language not saving.
+- Updated translations.
+
 - 02/07/2023 :
   - Added new settings to add arrows for vertical scrollbars.
   - Bed Mesh: Load default if no mesh have been loaded.
