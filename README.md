@@ -188,10 +188,17 @@ gcode:
 
 ## Changelog
 
+- 08/07/2023 :
+  - Fixed possible issue with the mesh profile is not complete.
+  - Extrude: do not call T0 if there is only one extruder.
+  - Extrude: change style to hexpand.
+  - Updated translations.
+  - Updated documentations.
+
 - 03/07/2023 :
-- Fixed multiple zcalibrate opening.
-- Fixed language not saving.
-- Updated translations.
+  - Fixed multiple zcalibrate opening.
+  - Fixed language not saving.
+  - Updated translations.
 
 - 02/07/2023 :
   - Added new settings to add arrows for vertical scrollbars.
