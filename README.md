@@ -188,6 +188,11 @@ gcode:
 
 ## Changelog
 
+- 29/07/2023 :
+  - Avoid re-capitalizing names that already include uppercase letters. This improves the presentation of names like "TMC2209", etc. when the user has manually capitalized the name.
+  - Use title case instead of only capitalizing the first character.
+  - Updated translations.
+
 - 08/07/2023 :
   - Fixed possible issue with the mesh profile is not complete.
   - Extrude: do not call T0 if there is only one extruder.
