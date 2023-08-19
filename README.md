@@ -188,6 +188,63 @@ gcode:
 
 ## Changelog
 
+- 19/08/2023:
+  - Add butttons for vertical scrollbars fixes.
+  - bed_level: Fixed center button not reporting rotation and reduce icon size fixes.
+  - menu: Rename KS settings to KlipperScreen.
+  - Define a minimum python version.
+  - job_status: Fixup progress initialization if restarted during print.
+  - extrude: Show during printing but disable buttons during printing, this allows disabling and checking the filament sensor.
+  - move: Settings button relocation for vertical mode.
+  - system and splash: Add ignore inhibitors to reboot and shutdown.
+  - Refactor tempstore initialization.
+  - base_panel: Improvement.
+  - Removes __main__ it makes duplicates of searchs and it's annoying.
+  - Use callbacks to disable and enable buttons to improve user feedback.
+  - klippygcodes: Simplify and remove some alias that are irrelevant.
+  - printer: Save and use available commands.
+  - main_menu: Allow closing the keypad with the back button.
+  - screen: Reinit if necessary, it does make a noticeable difference in slow hardware.
+  - moonraker Compat: create system-dependencies.
+  - screen: Preload most used panels.
+  - camera: Requirements fix for debian bookworm.
+  - camera: Add support for moonraker cameras, deprecates camera_url. This also adds support for flipping and rotation (configured in Moonraker).
+  - css: Simplify graph_labels.
+  - Updated documentation.
+
+- 04/08/2023:
+  - job_status: Fixed remaining times.
+  - style: Reduced the opacity of disabled buttons (better feedback).
+  - keypad: Fixed calibrate pid not showing sometimes.
+  - Updated translations.
+
+- 02/08/2023:
+  - fine_tune: Split speed and flow selectors close.
+  - Added parameter to labels to silence IDE warnings.
+  - Reduced the use of contextlib.
+  - screen: removed panel subscription.
+  - job_status: Refactor to improve efficiency.
+  - job_status: Changed progress percentage to time-based instead of file-based.
+  - job_status: Fixed screen overflow on small screens.
+  - job_status: Tweaks to the calc of time remaining.
+  - screen_panel: format_time round minutes since seconds are only shown with less than a minute.
+  - screen: Translate dpms failed and save settings after disabling it.
+  - screen: Simplify panel loading.
+  - screen: Make show_panel parameters more clear.
+  - screen: Changes in printer initialization to prevent loading main to early.
+  - Changes in how the config is validated. Now it validates in steps:
+    - 1 defaults
+    - 2 user settings
+    - 3 user includes
+    - 4 auto-generated section
+
+    Unknown keys will be removed from the auto-generated section if no other errors are found detect and warn about missing newlines in headers.
+  - move: Added a failsafe for velocity.
+  - macros: Fixed default parameters.
+  - Removed unnecessary params from labels.
+  - build(deps): bump websocket-client from 1.6.0 to 1.6.1.
+  - Updated translations.
+
 - 29/07/2023 :
   - Avoid re-capitalizing names that already include uppercase letters. This improves the presentation of names like "TMC2209", etc. when the user has manually capitalized the name.
   - Use title case instead of only capitalizing the first character.
