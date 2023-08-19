@@ -336,7 +336,7 @@ class Panel(ScreenPanel):
         self._gtk.remove_dialog(dialog)
         if response_id == Gtk.ResponseType.APPLY:
             if method == "reboot":
-                os.system("systemctl reboot")
+                os.system("systemctl reboot -i")
             else:
-                os.system("systemctl poweroff")
+                os.system("systemctl poweroff -i")
     # End Changes

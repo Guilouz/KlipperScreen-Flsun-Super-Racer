@@ -105,9 +105,6 @@ class Panel(ScreenPanel):
 
     def activate(self):
         self.check_power_status()
-        self._screen.base_panel.show_macro_shortcut(False)
-        self._screen.base_panel.show_heaters(False)
-        self._screen.base_panel.show_estop(False)
 
     def check_power_status(self):
         if 'power' in self.labels:
@@ -133,7 +130,7 @@ class Panel(ScreenPanel):
                                               "machine.shutdown")
         else:
             logging.info("OS Shutdown")
-            os.system("systemctl poweroff")
+            os.system("systemctl poweroff -i")
 
     def restart_system(self, widget):
 
@@ -143,7 +140,7 @@ class Panel(ScreenPanel):
                                               "machine.reboot")
         else:
             logging.info("OS Reboot")
-            os.system("systemctl reboot")
+            os.system("systemctl reboot -i")
 
     def retry(self, widget):
         self.update_text((_("Connecting to %s") % self._screen.connecting_to_printer))
