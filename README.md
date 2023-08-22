@@ -188,6 +188,21 @@ gcode:
 
 ## Changelog
 
+- 22/08/2023:
+  - Temporarily disabled backgrounds for themes to fix issue with buttons staying in busy state.
+  - camera: Relative url support.
+  - camera: Fixed 'No Xvideo support found' error message.
+  - base_panel: Fixed printer select.
+  - print and spoolman: Fixed arrows.
+  - spoolman: Added extra padding to expanders.
+  - PEP E721.
+  - Log popup messages for debugging.
+  - Updated translations.
+
+-20/08/2023:
+  - Added support for Spoolman.
+  - Updated documentation.
+
 - 19/08/2023:
   - Add butttons for vertical scrollbars fixes.
   - bed_level: Fixed center button not reporting rotation and reduce icon size fixes.
