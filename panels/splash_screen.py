@@ -130,7 +130,7 @@ class Panel(ScreenPanel):
                                               "machine.shutdown")
         else:
             logging.info("OS Shutdown")
-            os.system("systemctl poweroff -i")
+            os.system("systemctl poweroff -i") # Changes
 
     def restart_system(self, widget):
 
