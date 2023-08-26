@@ -188,6 +188,15 @@ gcode:
 
 ## Changelog
 
+- 27/08/2023:
+  - klippyGtk: Fixup possible issues with spinner and busy state.
+  - macros: Hide load and unload (use them in the extrude panel).
+  - macros: Hide macros with rename_existing (equal to Mainsail).
+  - menu: Fit 4 rows.
+  - Refactor temp updates for devices fix extruder_stepper icon error.
+  - Reverted "bed_mesh: load default if no mesh have been loaded".
+  - Fixed changes from env to virtualenv.
+
 - 22/08/2023:
   - Temporarily disabled backgrounds for themes to fix issue with buttons staying in busy state.
   - camera: Relative url support.
