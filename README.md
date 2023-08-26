@@ -208,7 +208,7 @@ gcode:
   - Log popup messages for debugging.
   - Updated translations.
 
--20/08/2023:
+- 20/08/2023:
   - Added support for Spoolman.
   - Updated documentation.
 
