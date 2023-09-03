@@ -258,6 +258,11 @@ class BasePanel(ScreenPanel):
         self.control[control].set_sensitive(value)
 
     def show_shortcut(self, show=True):
+        show = (
+            show
+            and self._config.get_main_config().getboolean('side_macro_shortcut', True)
+            and self._printer.get_printer_status_data()["printer"]["gcode_macros"]["count"] > 0
+        )
         self.control['shortcut'].set_visible(show)
         self.set_control_sensitive(self._screen._cur_panels[-1] != self.shorcut['panel'])
 
@@ -313,11 +318,10 @@ class BasePanel(ScreenPanel):
         self.labels['update_scroll'].set_property("overlay-scrolling", True)
         self.labels['update_scroll'].add(self.labels['update_progress'])
         self.labels['update_scroll'].connect("size-allocate", self._autoscroll)
-        dialog = self._gtk.Dialog(self._screen, button, self.labels['update_scroll'], self.finish_updating)
+        dialog = self._gtk.Dialog(_("Updating"), button, self.labels['update_scroll'], self.finish_updating)
         dialog.connect("delete-event", self.close_update_dialog)
         dialog.set_response_sensitive(Gtk.ResponseType.OK, False)
         dialog.get_widget_for_response(Gtk.ResponseType.OK).hide()
-        dialog.set_title(_("Updating"))
         self.update_dialog = dialog
         self._screen.updating = True
 
