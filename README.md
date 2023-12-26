@@ -51,7 +51,8 @@ path: ~/KlipperScreen
 origin: https://github.com/Guilouz/KlipperScreen-Flsun-Super-Racer.git
 virtualenv: ~/.KlipperScreen-env
 requirements: scripts/KlipperScreen-requirements.txt
-install_script: scripts/KlipperScreen-install.sh
+system_dependencies: scripts/system-dependencies.json
+managed_services: KlipperScreen
 ```
 - Once done, click on `SAVE & RESTART` at the top right to save the file.
 - You can now click the refresh button (still in the Machine tab) on the `Update Manager` tile.
@@ -84,9 +85,10 @@ Note: Installation may take several minutes.
 type: git_repo
 path: ~/KlipperScreen
 origin: https://github.com/KlipperScreen/KlipperScreen.git
-env: ~/.KlipperScreen-env/bin/python
+virtualenv: ~/.KlipperScreen-env
 requirements: scripts/KlipperScreen-requirements.txt
-install_script: scripts/KlipperScreen-install.sh
+system_dependencies: scripts/system-dependencies.json
+managed_services: KlipperScreen
 ```
 
 <br />
